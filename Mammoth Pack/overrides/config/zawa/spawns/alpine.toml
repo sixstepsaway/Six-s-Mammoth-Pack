@@ -1,0 +1,57 @@
+
+#
+# This is 1 of ZAWA's 10 habitat ranges. Each sub-range has its own list of biomes, and all of the sub-range's entities will spawn in those biomes.
+# Disable entities (or a species variant) by setting "enabled" under their category to false.
+# Use ONLY whole numbers greater than 0 for chance, min, and max!
+# "chance" is how common they spawn, a higher number is more common than a lower number. "min" and "max" adjusts their spawning group size.
+# !! If modded biomes are not generated, delete the entire "biomes" line for each sub-category and restart minecraft. !!
+#
+#
+[temperate_alpine]
+	biomes = ["minecraft:wooded_mountains", "minecraft:taiga_mountains", "genericeco:appalachian_mountains", "otg:ssaow.wooded_mountains", "otg:ssaow.gravelly_mountains_", "otg:default.wooded_mountains", "otg:default.gravelly_mountains_", "twilightforest:highlands", "projectvibrantjourneys:redwood_peaks"]
+
+	[temperate_alpine.butterfly]
+		chance = 10
+		min = 1
+		max = 4
+		enabled = true
+
+	[temperate_alpine.giant_panda]
+		chance = 5
+		min = 1
+		max = 1
+		enabled = true
+
+[dry_alpine]
+	biomes = ["minecraft:savanna_plateau", "minecraft:wooded_badlands_plateau", "minecraft:badlands_plateau", "minecraft:shattered_savanna_plateau", "minecraft:modified_wooded_badlands_plateau", "minecraft:modified_badlands_plateau", "genericeco:baobab_plateau", "genericeco:canyon_plateau", "genericeco:lush_badlands_plateau", "genericeco:lush_savanna_plateau", "genericeco:marula_plateau", "projectvibrantjourneys:boreal_plateau"]
+
+[tropical_alpine]
+	biomes = ["minecraft:modified_jungle", "minecraft:modified_jungle_edge", "minecraft:bamboo_jungle", "minecraft:bamboo_jungle_hills", "genericeco:sacred_springs"]
+
+	[tropical_alpine.mandrill]
+		chance = 10
+		min = 3
+		max = 4
+		enabled = true
+
+	[tropical_alpine.great_indian_hornbill]
+		chance = 10
+		min = 2
+		max = 3
+		enabled = true
+
+	[tropical_alpine.white_bellied_spider_monkey]
+		chance = 10
+		min = 3
+		max = 3
+		enabled = true
+
+[tundra_alpine]
+	biomes = ["minecraft:mountains", "minecraft:snowy_mountains", "minecraft:mountain_edge", "minecraft:gravelly_mountains", "minecraft:modified_gravelly_mountains", "genericeco:alps", "genericeco:alps_foothills", "genericeco:crag", "genericeco:crag_midlands", "genericeco:modified_crag", "genericeco:highland", "genericeco:highland_bluffs", "otg:ssaow.gravelly_mountains", "otg:ssaow.snowy_mountains", "otg:ssaow.mountain_edge", "otg:ssaow.mountains", "otg:default.gravelly_mountains", "otg:default.snowy_mountains", "otg:default.mountain_edge", "otg:default.mountains", "projectvibrantjourneys:windswept_cliffs", "gaiadimension:static_wasteland"]
+
+	[tundra_alpine.snow_leopard]
+		chance = 5
+		min = 1
+		max = 1
+		enabled = true
+

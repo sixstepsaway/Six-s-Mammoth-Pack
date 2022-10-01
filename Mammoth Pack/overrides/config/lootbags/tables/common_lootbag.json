@@ -1,0 +1,46 @@
+{
+  "metadata": {
+    "item_id": "common_lootbag",
+    "npc_ids": [
+      "minecraft:zombie",
+      "minecraft:skeleton",
+      "minecraft:spider",
+      "minecraft:cave_spider",
+      "minecraft:chicken"
+    ],
+    "drop_odds": 0.2,
+    "rolls": 3
+  },
+  "items": {
+    "minecraft:diamond": {
+      "max_count": 10,
+      "min_count": 1,
+      "weight": 1
+    },
+    "minecraft:emerald": {
+      "max_count": 10,
+      "min_count": 1,
+      "weight": 1
+    },
+    "minecraft:redstone": {
+      "max_count": 10,
+      "min_count": 1,
+      "weight": 1
+    },
+    "minecraft:lapis_lazuli": {
+      "max_count": 10,
+      "min_count": 1,
+      "weight": 1
+    },
+    "minecraft:torch": {
+      "max_count": 10,
+      "min_count": 1,
+      "weight": 1
+    },
+    "minecraft:cobblestone": {
+      "max_count": 10,
+      "min_count": 1,
+      "weight": 1
+    }
+  }
+}

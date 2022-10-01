@@ -1,0 +1,21 @@
+
+[General]
+	DEBUG = false
+
+	[General.Compat]
+		Veggie_Way = true
+		Simple_Farming = true
+		Immersive_Engineering = true
+		Pams_Harvestcraft = true
+		#A config file will be generated when the mod is loaded while the feature is enabled. 
+		#If you disable a feature the config file and block registration/generation will be disabled
+		Minecraft = true
+
+	[General.Global_Modifier]
+		#How far apart the plants are at maximum (higher is more far) [Default: 3]
+		Spread = 3
+		#How many plants are placed in a patch at maximum (higher is more) [Default: 8]
+		Size = 8
+		#How many plant patches there are in the world (higher is more) [Default: 1]
+		Frequency = 2
+

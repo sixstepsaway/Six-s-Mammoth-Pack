@@ -1,0 +1,63 @@
+
+#
+# This is 1 of ZAWA's 10 habitat ranges. Each sub-range has its own list of biomes, and all of the sub-range's entities will spawn in those biomes.
+# Disable entities (or a species variant) by setting "enabled" under their category to false.
+# Use ONLY whole numbers greater than 0 for chance, min, and max!
+# "chance" is how common they spawn, a higher number is more common than a lower number. "min" and "max" adjusts their spawning group size.
+# !! If modded biomes are not generated, delete the entire "biomes" line for each sub-category and restart minecraft. !!
+#
+#
+[cold_grassland]
+	biomes = ["minecraft:plains", "minecraft:snowy_tundra", "minecraft:sunflower_plains", "genericeco:apple_orchard", "genericeco:bushland", "genericeco:bushland_hills", "genericeco:cold_desert", "genericeco:frozen_desert", "genericeco:flowering_fields", "genericeco:grassland", "genericeco:tall_grassland", "genericeco:lavender_fields", "genericeco:lavender_meadow", "genericeco:marsh", "genericeco:dense_marsh", "genericeco:meadow", "genericeco:meadow_forest", "genericeco:moor", "genericeco:moor_lowlands", "genericeco:prairie", "genericeco:pasture", "genericeco:wooded_prairie", "genericeco:quagmire", "genericeco:shrubland", "genericeco:dense_shrubland", "genericeco:steppe", "genericeco:steppe_uplands", "otg:ssaow.snowy_tundra", "otg:ssaow.ice_spikes", "otg:ssaow.plains", "otg:ssaow.sunflower_plains", "otg:default.snowy_tundra", "otg:default.ice_spikes", "otg:default.plains", "otg:default.sunflower_plains", "twilightforest:clearing", "twilightforest:glacier", "twilightforest:thornlands", "twilightforest:final_plateau", "projectvibrantjourneys:pine_meadows", "projectvibrantjourneys:prairie", "projectvibrantjourneys:blossoming_fields", "projectvibrantjourneys:meadows", "projectvibrantjourneys:stony_fields", "gaiadimension:static_wasteland", "gaiadimension:goldstone_lands", "gaiadimension:crystal_plains"]
+
+[dry_grassland]
+	biomes = ["minecraft:plains", "minecraft:savanna", "minecraft:savanna_plateau", "minecraft:sunflower_plains", "genericeco:apple_orchard", "genericeco:bushland", "genericeco:bushland_hills", "genericeco:chaparral", "genericeco:chaparral_mountains", "genericeco:flowering_fields", "genericeco:grassland", "genericeco:tall_grassland", "genericeco:lavender_fields", "genericeco:lavender_meadow", "genericeco:meadow", "genericeco:meadow_forest", "genericeco:prairie", "genericeco:pasture", "genericeco:wooded_prairie", "genericeco:shrubland", "genericeco:dense_shrubland", "genericeco:steppe", "genericeco:steppe_uplands", "otg:ssaow.shattered_savanna_plateau", "otg:ssaow.shattered_savanna", "otg:ssaow.plains", "otg:ssaow.savanna", "otg:ssaow.sunflower_plains", "otg:ssaow.savanna_plateau", "otg:default.shattered_savanna_plateau", "otg:default.shattered_savanna", "otg:default.plains", "otg:default.savanna", "otg:default.sunflower_plains", "otg:default.savanna_plateau", "atum:sand_plains", "twilightforest:clearing", "projectvibrantjourneys:pine_meadows", "projectvibrantjourneys:prairie", "projectvibrantjourneys:blossoming_fields", "projectvibrantjourneys:meadows", "projectvibrantjourneys:stony_fields", "gaiadimension:goldstone_lands", "gaiadimension:crystal_plains", "minecraft:badlands", "minecraft:badlands_plateau", "genericeco:lush_badlands", "genericeco:lush_badlands_plateau", "otg:ssaow.badlands", "otg:ssaow.badlands_plateau", "otg:ssaow.eroded_badlands", "otg:ssaow.modified_badlands_plateau", "otg:default.badlands", "otg:default.badlands_plateau", "otg:default.eroded_badlands", "otg:default.modified_badlands_plateau", "twilightforest:final_plateau"]
+
+	[dry_grassland.african_praying_mantis]
+		chance = 4
+		min = 1
+		max = 1
+		enabled = true
+
+	[dry_grassland.giant_anteater]
+		chance = 8
+		min = 1
+		max = 1
+		enabled = true
+
+	[dry_grassland.black_footed_ferret]
+		chance = 5
+		min = 1
+		max = 2
+		enabled = true
+
+	[dry_grassland.arizona_bark_scorpion]
+		chance = 4
+		min = 1
+		max = 1
+		enabled = true
+
+	[dry_grassland.butterfly]
+		chance = 10
+		min = 1
+		max = 4
+		enabled = true
+
+	[dry_grassland.brazilian_black_tarantula]
+		chance = 4
+		min = 1
+		max = 1
+		enabled = true
+
+	[dry_grassland.devils_flower_praying_mantis]
+		chance = 4
+		min = 1
+		max = 1
+		enabled = true
+
+	[dry_grassland.northern_scorpion]
+		chance = 4
+		min = 1
+		max = 1
+		enabled = true
+

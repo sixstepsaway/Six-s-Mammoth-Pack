@@ -1,0 +1,25 @@
+
+#Action Permissions
+[Permissions]
+	#allow CatLeap
+	allowCatLeap = true
+	#allow Crawl
+	allowCrawl = true
+	#allow Dodge
+	allowDodge = true
+	#allow FastRunning
+	allowFastRunning = true
+	#allow ClingToCliff
+	allowClingToCliff = true
+	#allow Roll
+	allowRoll = true
+	#allow Vault
+	allowVault = true
+	#allow WallJump
+	"allow WallJump" = true
+
+#Others
+["Other Configuration"]
+	#allow Infinite Stamina
+	infiniteStamina = false
+

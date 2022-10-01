@@ -1,0 +1,86 @@
+
+["MI ALLIANCE configuration"]
+	#
+	#Should army Mi's be able to destroy blocks?
+	"Mi Fire Griefing?" = true
+	#
+	#Allow the generation of aboveground Mi Facilities, seen in Mitopian Plains?
+	"Allow aboveground Facilities?" = true
+	#
+	#Allow the generation of underground Mi Facilities, rarely throughout the world?
+	"Allow underground Facilities?" = true
+	"Spawn unit: Incinerator?" = true
+	#
+	#Spawn Mi group: Assassins?
+	"Spawn Assassins?" = true
+	"Spawn unit: Commando?" = true
+	#
+	#Should worlds automatically be in Phase Two? Warning: Extremely hard for Survival.
+	"Force Phase Two?" = false
+	#Do Mi groups spawn?
+	"Do Mi Spawning?" = true
+	#
+	#Allow Radio static noise?
+	"Static?" = true
+	#
+	#How often should Tubian ghosts attempt to spawn?
+	#Range: 0.1 ~ 10.0
+	"Tubian Ghost Spawn Rate" = 1.0
+	#
+	#How quickly Mi's become stronger in the early stages of a world. On Normal difficulty, this is at day 5, day 9 and day 18. The higher this factor, the longer it takes.
+	#Range: 0.1 ~ 5.0
+	"Mi Upgrade Time" = 1.0
+	"Spawn unit: Gunslinger?" = true
+	#
+	#Should Mi's be able to destroy blocks with explosions?
+	"Mi Griefing?" = true
+	"Spawn unit: Wizard?" = true
+	#
+	#Spawnrate of all Mi patrols are multiplied by this factor after applying other factors, such as difficulty.
+	#Range: 0.1 ~ 10.0
+	"Mi Spawn Rate" = 1.0
+	"Spawn unit: Tonk?" = true
+	"Spawn unit: Rider?" = true
+	"Spawn unit: Sniper?" = true
+	#
+	#Allow the generation of various Mi structures?
+	"Allow Outpost spawning?" = true
+	#
+	#Spawn Mi group: Army?
+	"Spawn Army?" = true
+	"Spawn unit: Submirine?" = true
+	#
+	#Spawn Mi group: Miners?
+	"Spawn Miners?" = true
+	"Spawn unit: Carrymi?" = true
+	#
+	#Spawn Mi group: Builders?
+	"Spawn Builders?" = true
+	#
+	#Spawn Mi group: Airstrike?
+	"Spawn Airstrike?" = true
+	#
+	#
+	"Spawn unit: Billoo?" = true
+	#
+	#Allow Level 2 Beacons from spawning small patrols of Mi legionnaires?
+	"Allow Beacon patrols?" = true
+	#
+	#The growth of Mi Colonies is influenced by this factor.
+	#Range: 0.1 ~ 10.0
+	"Mi Colony Growth" = 1.0
+	#
+	#Spawn Mi group: Hunters?
+	"Spawn Hunters?" = true
+	#
+	#Spawn Mi group: Explorers?
+	"Spawn Explorers?" = true
+	"Spawn unit: Battlecruiser?" = true
+	#
+	#Spawn size of all Mi patrols are multiplied by this factor after applying other factors, such as difficulty.
+	#Range: 0.2 ~ 5.0
+	"Mi Group Size" = 1.0
+	#
+	#Spawn Mi group: Guardians?
+	"Spawn Guardians?" = true
+

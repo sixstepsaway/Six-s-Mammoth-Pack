@@ -1,0 +1,711 @@
+
+#Valid Biome Types:
+#Temperature: [HOT, COLD] 
+#Vegetation: [SPARSE, DENSE] 
+#Humidity: [WET, DRY] 
+#Tree Types: [SAVANNA, CONIFEROUS, JUNGLE] 
+#Attributes: [SPOOKY, DEAD, LUSH, MUSHROOM, MAGICAL, RARE, PLATEAU, MODIFIED, OCEAN, RIVER, WATER] 
+#Generic Types: [MESA, FOREST, PLAINS, MOUNTAIN, HILLS, SWAMP, SANDY, SNOWY, WASTELAND, BEACH, VOID] 
+#Use: [OVERWORLD] to generate in all biomes
+["WILD AGAVE"]
+	#Default [1]
+	"Frequency:" = 1
+	"Enabled:" = true
+	#Default [1]
+	"Patch Size:" = 1
+	#Default: [MESA]
+	"Biome Type:" = "MESA"
+
+["WILD AMARANTH"]
+	#Default [1]
+	"Frequency:" = 1
+	"Enabled:" = true
+	#Default [1]
+	"Patch Size:" = 1
+	#Default: [HOT]
+	"Biome Type:" = "HOT"
+
+["WILD ARROWROOT"]
+	#Default [1]
+	"Frequency:" = 1
+	"Enabled:" = true
+	#Default [1]
+	"Patch Size:" = 1
+	#Default: [DENSE]
+	"Biome Type:" = "DENSE"
+
+["WILD ARTICHOKE"]
+	#Default [1]
+	"Frequency:" = 1
+	"Enabled:" = true
+	#Default [1]
+	"Patch Size:" = 1
+	#Default: [DRY]
+	"Biome Type:" = "DRY"
+
+["WILD ASPARAGUS"]
+	#Default [1]
+	"Frequency:" = 1
+	"Enabled:" = true
+	#Default [1]
+	"Patch Size:" = 1
+	#Default: [RIVER]
+	"Biome Type:" = "RIVER"
+
+["WILD BARLEY"]
+	#Default [1]
+	"Frequency:" = 1
+	"Enabled:" = true
+	#Default [1]
+	"Patch Size:" = 1
+	#Default: [PLAINS]
+	"Biome Type:" = "PLAINS"
+
+["WILD BEAN"]
+	#Default [1]
+	"Frequency:" = 1
+	"Enabled:" = true
+	#Default [1]
+	"Patch Size:" = 1
+	#Default: [FOREST]
+	"Biome Type:" = "FOREST"
+
+["WILD BELLPEPPER"]
+	#Default [1]
+	"Frequency:" = 1
+	"Enabled:" = true
+	#Default [1]
+	"Patch Size:" = 1
+	#Default: [PLAINS]
+	"Biome Type:" = "PLAINS"
+
+["WILD BLACKBERRY"]
+	#Default [1]
+	"Frequency:" = 1
+	"Enabled:" = true
+	#Default [1]
+	"Patch Size:" = 1
+	#Default: [FOREST]
+	"Biome Type:" = "FOREST"
+
+["WILD BLUEBERRY"]
+	#Default [1]
+	"Frequency:" = 1
+	"Enabled:" = true
+	#Default [1]
+	"Patch Size:" = 1
+	#Default: [RIVER]
+	"Biome Type:" = "RIVER"
+
+["WILD BROCCOLI"]
+	#Default [1]
+	"Frequency:" = 1
+	"Enabled:" = true
+	#Default [1]
+	"Patch Size:" = 1
+	#Default: [COLD]
+	"Biome Type:" = "COLD"
+
+["WILD BRUSSELSPROUT"]
+	#Default [1]
+	"Frequency:" = 1
+	"Enabled:" = true
+	#Default [1]
+	"Patch Size:" = 1
+	#Default: [SWAMP]
+	"Biome Type:" = "SWAMP"
+
+["WILD CABBAGE"]
+	#Default [1]
+	"Frequency:" = 1
+	"Enabled:" = true
+	#Default [1]
+	"Patch Size:" = 1
+	#Default: [COLD]
+	"Biome Type:" = "COLD"
+
+["WILD CACTUSFRUIT"]
+	#Default [1]
+	"Frequency:" = 1
+	"Enabled:" = true
+	#Default [1]
+	"Patch Size:" = 1
+	#Default: [SANDY]
+	"Biome Type:" = "SANDY"
+
+["WILD CANDLEBERRY"]
+	#Default [1]
+	"Frequency:" = 1
+	"Enabled:" = true
+	#Default [1]
+	"Patch Size:" = 1
+	#Default: [PLAINS]
+	"Biome Type:" = "PLAINS"
+
+["WILD CANTALOUPE"]
+	#Default [1]
+	"Frequency:" = 1
+	"Enabled:" = true
+	#Default [1]
+	"Patch Size:" = 1
+	#Default: [WATER]
+	"Biome Type:" = "WATER"
+
+["WILD CASSAVA"]
+	#Default [1]
+	"Frequency:" = 1
+	"Enabled:" = true
+	#Default [1]
+	"Patch Size:" = 1
+	#Default: [SANDY]
+	"Biome Type:" = "SANDY"
+
+["WILD CAULIFLOWER"]
+	#Default [1]
+	"Frequency:" = 1
+	"Enabled:" = true
+	#Default [1]
+	"Patch Size:" = 1
+	#Default: [COLD]
+	"Biome Type:" = "COLD"
+
+["WILD CELERY"]
+	#Default [1]
+	"Frequency:" = 1
+	"Enabled:" = true
+	#Default [1]
+	"Patch Size:" = 1
+	#Default: [COLD]
+	"Biome Type:" = "COLD"
+
+["WILD CHICKPEA"]
+	#Default [1]
+	"Frequency:" = 1
+	"Enabled:" = true
+	#Default [1]
+	"Patch Size:" = 1
+	#Default: [SANDY]
+	"Biome Type:" = "SANDY"
+
+["WILD CHILIPEPPER"]
+	#Default [1]
+	"Frequency:" = 1
+	"Enabled:" = true
+	#Default [1]
+	"Patch Size:" = 1
+	#Default: [SAVANNA]
+	"Biome Type:" = "SAVANNA"
+
+["WILD COFFEEBEAN"]
+	#Default [1]
+	"Frequency:" = 1
+	"Enabled:" = true
+	#Default [1]
+	"Patch Size:" = 1
+	#Default: [BEACH]
+	"Biome Type:" = "BEACH"
+
+["WILD CORN"]
+	#Default [1]
+	"Frequency:" = 1
+	"Enabled:" = true
+	#Default [1]
+	"Patch Size:" = 1
+	#Default: [SAVANNA]
+	"Biome Type:" = "SAVANNA"
+
+["WILD COTTON"]
+	#Default [1]
+	"Frequency:" = 1
+	"Enabled:" = true
+	#Default [1]
+	"Patch Size:" = 1
+	#Default: [MOUNTAIN]
+	"Biome Type:" = "MOUNTAIN"
+
+["WILD CRANBERRY"]
+	#Default [1]
+	"Frequency:" = 1
+	"Enabled:" = true
+	#Default [1]
+	"Patch Size:" = 1
+	#Default: [RIVER]
+	"Biome Type:" = "RIVER"
+
+["WILD CUCUMBER"]
+	#Default [1]
+	"Frequency:" = 1
+	"Enabled:" = true
+	#Default [1]
+	"Patch Size:" = 1
+	#Default: [PLAINS]
+	"Biome Type:" = "PLAINS"
+
+["WILD EGGPLANT"]
+	#Default [1]
+	"Frequency:" = 1
+	"Enabled:" = true
+	#Default [1]
+	"Patch Size:" = 1
+	#Default: [WATER]
+	"Biome Type:" = "WATER"
+
+["WILD ELDERBERRY"]
+	#Default [1]
+	"Frequency:" = 1
+	"Enabled:" = true
+	#Default [1]
+	"Patch Size:" = 1
+	#Default: [PLAINS]
+	"Biome Type:" = "PLAINS"
+
+["WILD FLAX"]
+	#Default [1]
+	"Frequency:" = 1
+	"Enabled:" = true
+	#Default [1]
+	"Patch Size:" = 1
+	#Default: [SAVANNA]
+	"Biome Type:" = "SAVANNA"
+
+["WILD GARLIC"]
+	#Default [1]
+	"Frequency:" = 1
+	"Enabled:" = true
+	#Default [1]
+	"Patch Size:" = 1
+	#Default: [FOREST]
+	"Biome Type:" = "FOREST"
+
+["WILD GINGER"]
+	#Default [1]
+	"Frequency:" = 1
+	"Enabled:" = true
+	#Default [1]
+	"Patch Size:" = 1
+	#Default: [WATER]
+	"Biome Type:" = "WATER"
+
+["WILD GRAPE"]
+	#Default [1]
+	"Frequency:" = 1
+	"Enabled:" = true
+	#Default [1]
+	"Patch Size:" = 1
+	#Default: [BEACH]
+	"Biome Type:" = "BEACH"
+
+["WILD GREENGRAPE"]
+	#Default [1]
+	"Frequency:" = 1
+	"Enabled:" = true
+	#Default [1]
+	"Patch Size:" = 1
+	#Default: [PLAINS]
+	"Biome Type:" = "PLAINS"
+
+["WILD HUCKLEBERRY"]
+	#Default [1]
+	"Frequency:" = 1
+	"Enabled:" = true
+	#Default [1]
+	"Patch Size:" = 1
+	#Default: [MOUNTAIN]
+	"Biome Type:" = "MOUNTAIN"
+
+["WILD JICAMA"]
+	#Default [1]
+	"Frequency:" = 1
+	"Enabled:" = true
+	#Default [1]
+	"Patch Size:" = 1
+	#Default: [SWAMP]
+	"Biome Type:" = "SWAMP"
+
+["WILD JUNIPERBERRY"]
+	#Default [1]
+	"Frequency:" = 1
+	"Enabled:" = true
+	#Default [1]
+	"Patch Size:" = 1
+	#Default: [PLAINS]
+	"Biome Type:" = "PLAINS"
+
+["WILD JUTE"]
+	#Default [1]
+	"Frequency:" = 1
+	"Enabled:" = true
+	#Default [1]
+	"Patch Size:" = 1
+	#Default: [FOREST]
+	"Biome Type:" = "FOREST"
+
+["WILD KALE"]
+	#Default [1]
+	"Frequency:" = 1
+	"Enabled:" = true
+	#Default [1]
+	"Patch Size:" = 1
+	#Default: [SWAMP]
+	"Biome Type:" = "SWAMP"
+
+["WILD KENAF"]
+	#Default [1]
+	"Frequency:" = 1
+	"Enabled:" = true
+	#Default [1]
+	"Patch Size:" = 1
+	#Default: [BEACH]
+	"Biome Type:" = "BEACH"
+
+["WILD KIWI"]
+	#Default [1]
+	"Frequency:" = 1
+	"Enabled:" = true
+	#Default [1]
+	"Patch Size:" = 1
+	#Default: [BEACH]
+	"Biome Type:" = "BEACH"
+
+["WILD KOHLRABI"]
+	#Default [1]
+	"Frequency:" = 1
+	"Enabled:" = true
+	#Default [1]
+	"Patch Size:" = 1
+	#Default: [COLD]
+	"Biome Type:" = "COLD"
+
+["WILD LEEK"]
+	#Default [1]
+	"Frequency:" = 1
+	"Enabled:" = true
+	#Default [1]
+	"Patch Size:" = 1
+	#Default: [FOREST]
+	"Biome Type:" = "FOREST"
+
+["WILD LENTIL"]
+	#Default [1]
+	"Frequency:" = 1
+	"Enabled:" = true
+	#Default [1]
+	"Patch Size:" = 1
+	#Default: [MESA]
+	"Biome Type:" = "MESA"
+
+["WILD LETTUCE"]
+	#Default [1]
+	"Frequency:" = 1
+	"Enabled:" = true
+	#Default [1]
+	"Patch Size:" = 1
+	#Default: [SAVANNA]
+	"Biome Type:" = "SAVANNA"
+
+["WILD MILLET"]
+	#Default [1]
+	"Frequency:" = 1
+	"Enabled:" = true
+	#Default [1]
+	"Patch Size:" = 1
+	#Default: [SWAMP]
+	"Biome Type:" = "SWAMP"
+
+["WILD MULBERRY"]
+	#Default [1]
+	"Frequency:" = 1
+	"Enabled:" = true
+	#Default [1]
+	"Patch Size:" = 1
+	#Default: [RIVER]
+	"Biome Type:" = "RIVER"
+
+["WILD MUSTARDSEEDS"]
+	#Default [1]
+	"Frequency:" = 1
+	"Enabled:" = true
+	#Default [1]
+	"Patch Size:" = 1
+	#Default: [PLAINS]
+	"Biome Type:" = "PLAINS"
+
+["WILD OATS"]
+	#Default [1]
+	"Frequency:" = 1
+	"Enabled:" = true
+	#Default [1]
+	"Patch Size:" = 1
+	#Default: [HILLS]
+	"Biome Type:" = "HILLS"
+
+["WILD OKRA"]
+	#Default [1]
+	"Frequency:" = 1
+	"Enabled:" = true
+	#Default [1]
+	"Patch Size:" = 1
+	#Default: [SWAMP]
+	"Biome Type:" = "SWAMP"
+
+["WILD ONION"]
+	#Default [1]
+	"Frequency:" = 1
+	"Enabled:" = true
+	#Default [1]
+	"Patch Size:" = 1
+	#Default: [PLAINS]
+	"Biome Type:" = "HOT"
+
+["WILD PARSNIP"]
+	#Default [1]
+	"Frequency:" = 1
+	"Enabled:" = true
+	#Default [1]
+	"Patch Size:" = 1
+	#Default: [DRY]
+	"Biome Type:" = "DRY"
+
+["WILD PEANUT"]
+	#Default [1]
+	"Frequency:" = 1
+	"Enabled:" = true
+	#Default [1]
+	"Patch Size:" = 1
+	#Default: [SANDY]
+	"Biome Type:" = "SANDY"
+
+["WILD PEAS"]
+	#Default [1]
+	"Frequency:" = 1
+	"Enabled:" = true
+	#Default [1]
+	"Patch Size:" = 1
+	#Default: [MOUNTAIN]
+	"Biome Type:" = "MOUNTAIN"
+
+["WILD PINEAPPLE"]
+	#Default [1]
+	"Frequency:" = 1
+	"Enabled:" = true
+	#Default [1]
+	"Patch Size:" = 1
+	#Default: [BEACH]
+	"Biome Type:" = "BEACH"
+
+["WILD QUINOA"]
+	#Default [1]
+	"Frequency:" = 1
+	"Enabled:" = true
+	#Default [1]
+	"Patch Size:" = 1
+	#Default: [COLD]
+	"Biome Type:" = "COLD"
+
+["WILD RADISH"]
+	#Default [1]
+	"Frequency:" = 1
+	"Enabled:" = true
+	#Default [1]
+	"Patch Size:" = 1
+	#Default: [FOREST]
+	"Biome Type:" = "FOREST"
+
+["WILD RASPBERRY"]
+	#Default [1]
+	"Frequency:" = 1
+	"Enabled:" = true
+	#Default [1]
+	"Patch Size:" = 1
+	#Default: [MOUNTAIN]
+	"Biome Type:" = "MOUNTAIN"
+
+["WILD RHUBARB"]
+	#Default [1]
+	"Frequency:" = 1
+	"Enabled:" = true
+	#Default [1]
+	"Patch Size:" = 1
+	#Default: [FOREST]
+	"Biome Type:" = "FOREST"
+
+["WILD RICE"]
+	#Default [1]
+	"Frequency:" = 1
+	"Enabled:" = true
+	#Default [1]
+	"Patch Size:" = 1
+	#Default: [SWAMP]
+	"Biome Type:" = "SWAMP"
+
+["WILD RUTABAGA"]
+	#Default [1]
+	"Frequency:" = 1
+	"Enabled:" = true
+	#Default [1]
+	"Patch Size:" = 1
+	#Default: [COLD]
+	"Biome Type:" = "COLD"
+
+["WILD RYE"]
+	#Default [1]
+	"Frequency:" = 1
+	"Enabled:" = true
+	#Default [1]
+	"Patch Size:" = 1
+	#Default: [HILLS]
+	"Biome Type:" = "HILLS"
+
+["WILD SCALLION"]
+	#Default [1]
+	"Frequency:" = 1
+	"Enabled:" = true
+	#Default [1]
+	"Patch Size:" = 1
+	#Default: [FOREST]
+	"Biome Type:" = "FOREST"
+
+["WILD SESAMESEEDS"]
+	#Default [1]
+	"Frequency:" = 1
+	"Enabled:" = true
+	#Default [1]
+	"Patch Size:" = 1
+	#Default: [SAVANNA]
+	"Biome Type:" = "SAVANNA"
+
+["WILD SISAL"]
+	#Default [1]
+	"Frequency:" = 1
+	"Enabled:" = true
+	#Default [1]
+	"Patch Size:" = 1
+	#Default: [SANDY]
+	"Biome Type:" = "SANDY"
+
+["WILD SOYBEAN"]
+	#Default [1]
+	"Frequency:" = 1
+	"Enabled:" = true
+	#Default [1]
+	"Patch Size:" = 1
+	#Default: [WATER]
+	"Biome Type:" = "WATER"
+
+["WILD SPICELEAF"]
+	#Default [1]
+	"Frequency:" = 1
+	"Enabled:" = true
+	#Default [1]
+	"Patch Size:" = 1
+	#Default: [FOREST]
+	"Biome Type:" = "FOREST"
+
+["WILD SPINACH"]
+	#Default [1]
+	"Frequency:" = 1
+	"Enabled:" = true
+	#Default [1]
+	"Patch Size:" = 1
+	#Default: [COLD]
+	"Biome Type:" = "COLD"
+
+["WILD STRAWBERRY"]
+	#Default [1]
+	"Frequency:" = 1
+	"Enabled:" = true
+	#Default [1]
+	"Patch Size:" = 1
+	#Default: [PLAINS]
+	"Biome Type:" = "PLAINS"
+
+["WILD SWEETPOTATO"]
+	#Default [1]
+	"Frequency:" = 1
+	"Enabled:" = true
+	#Default [1]
+	"Patch Size:" = 1
+	#Default: [FOREST]
+	"Biome Type:" = "FOREST"
+
+["WILD TARO"]
+	#Default [1]
+	"Frequency:" = 1
+	"Enabled:" = true
+	#Default [1]
+	"Patch Size:" = 1
+	#Default: [BEACH]
+	"Biome Type:" = "BEACH"
+
+["WILD TEALEAF"]
+	#Default [1]
+	"Frequency:" = 1
+	"Enabled:" = true
+	#Default [1]
+	"Patch Size:" = 1
+	#Default: [FOREST]
+	"Biome Type:" = "FOREST"
+
+["WILD TOMATILLO"]
+	#Default [1]
+	"Frequency:" = 1
+	"Enabled:" = true
+	#Default [1]
+	"Patch Size:" = 1
+	#Default: [FOREST]
+	"Biome Type:" = "FOREST"
+
+["WILD TOMATO"]
+	#Default [1]
+	"Frequency:" = 1
+	"Enabled:" = true
+	#Default [1]
+	"Patch Size:" = 1
+	#Default: [DESERT]
+	"Biome Type:" = "DESERT"
+
+["WILD TURNIP"]
+	#Default [1]
+	"Frequency:" = 1
+	"Enabled:" = true
+	#Default [1]
+	"Patch Size:" = 1
+	#Default: [FOREST]
+	"Biome Type:" = "FOREST"
+
+["WILD WATERCHESTNUT"]
+	#Default [1]
+	"Frequency:" = 1
+	"Enabled:" = true
+	#Default [1]
+	"Patch Size:" = 1
+	#Default: [RIVER]
+	"Biome Type:" = "RIVER"
+
+["WILD WHITEMUSHROOM"]
+	#Default [1]
+	"Frequency:" = 1
+	"Enabled:" = true
+	#Default [1]
+	"Patch Size:" = 1
+	#Default: [FOREST]
+	"Biome Type:" = "FOREST"
+
+["WILD WINTERSQUASH"]
+	#Default [1]
+	"Frequency:" = 1
+	"Enabled:" = true
+	#Default [1]
+	"Patch Size:" = 1
+	#Default: [PLAINS]
+	"Biome Type:" = "PLAINS"
+
+["WILD ZUCCHINI"]
+	#Default [1]
+	"Frequency:" = 1
+	"Enabled:" = true
+	#Default [1]
+	"Patch Size:" = 1
+	#Default: [FOREST]
+	"Biome Type:" = "FOREST"
+

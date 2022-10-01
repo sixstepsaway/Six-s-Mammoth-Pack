@@ -1,0 +1,102 @@
+
+#Misc Configs
+[misc]
+	#The horizontal offset for the button
+	#Range: -1000 ~ 1000
+	buttonXOffset = -18
+	#The vertical offset for the button
+	#Range: -1000 ~ 1000
+	buttonYOffset = 143
+
+#Enabled Features
+[features]
+	enableDexterity = true
+	enableHeat = true
+	enableStrike = true
+	enableAirWalker = true
+	enableLure = true
+	enableAdrenaline = true
+	enableVoid = true
+	enableFarReach = true
+	enableDeflection = false
+	enableGluttony = true
+	enableSmite = true
+	enableSuperJump = true
+	enableFastBreak = true
+	enableLoyalty = true
+	enableFirePraise = true
+	enableGravity = true
+	enableMetalFist = true
+	enableBlastResist = true
+	enableLavaSwim = true
+	enableSwiftCharge = true
+
+#Enchant Configs
+[enchants]
+
+	#Dexterity
+	[enchants.dexterity]
+		dexterityTags = ["forge:sandstone", "forge:rods/wooden", "minecraft:fences", "forge:dyes", "minecraft:planks", "minecraft:arrows", "minecraft:signs", "minecraft:small_flowers", "minecraft:buttons", "minecraft:wooden_pressure_plates", "minecraft:rails", "forge:chests", "forge:leather"]
+		dexterityItems = ["minecraft:fire_charge", "minecraft:sugar", "minecraft:firework_star", "minecraft:bread"]
+
+	#Gluttony
+	[enchants.gluttony]
+		enableRabbitStew = true
+		enableCookie = true
+
+	#Heat
+	[enchants.heat]
+		#Range: 1 ~ 64
+		additionalTickSpeed = 3
+		tileBlacklist = ["minecraft:hopper", "minecraft:piston", "minecraft:beacon", "minecraft:conduit", "minecraft:bell", "minecraft:beehive", "minecraft:daylight_detector", "minecraft:end_gateway", "enchantability:air"]
+		treatBlacklistAsWhitelist = false
+		#Range: 1 ~ 256
+		heatRange = 32
+
+	#Super Jump
+	[enchants.super_jump]
+		#The mutliplier on the jump once charged.
+		#Range: 0.25 ~ 3.0
+		chargeJumpMultiplier = 1.0
+		#The amount of ticks that the player has to charge per enchant level
+		#Range: 10 ~ 80
+		chargePerLevel = 30
+
+	#Metal Fist
+	[enchants.metal_fist]
+		#The multiplier for the break speed when wearing Sharpness 5+ book
+		#Set to '1.0' to disable increased speed on Sharpness 5
+		#Range: 1.0 ~ 10.0
+		speedMultiplier = 2.0
+
+	#Adrenaline
+	[enchants.adrenaline]
+		#The damage needed to be taken within the tracked time to activate
+		#Range: 1.0 ~ 100.0
+		adrenalineDamageTakenThreshold = 12.0
+		#The time (in ticks) to track the damage taken for the corresponding threshold for activation
+		#Range: > 10
+		adrenalineDamageDealtTime = 40
+		#The damage needed to be dealt within the tracked time to activate
+		#Range: 1.0 ~ 2000.0
+		adrenalineDamageDealtThreshold = 50.0
+		#Range: 1 ~ 12000
+		adrenalineDuration3 = 800
+		#Range: 1 ~ 12000
+		adrenalineDuration2 = 300
+		#Duration (in ticks) for the effects of Adrenaline per level of enchant
+		#Range: 1 ~ 12000
+		adrenalineDuration1 = 100
+		#The cooldown (in ticks) after the adrenaline has worn off
+		#Range: 0 ~ 72000
+		adrenalineCooldown = 600
+		#The time (in ticks) to track the damage dealt for the corresponding threshold for activation
+		#Range: > 10
+		adrenalineDamageTakenTime = 80
+
+	#Loyalty
+	[enchants.loyalty]
+		#Time (in ticks) until the pet revives
+		#Times for level 1/2/3 is represented as [1, 2, 3]
+		reviveTimes = [1200, 900, 600]
+

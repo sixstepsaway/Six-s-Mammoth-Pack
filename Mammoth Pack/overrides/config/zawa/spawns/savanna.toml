@@ -1,0 +1,99 @@
+
+#
+# This is 1 of ZAWA's 10 habitat ranges. Each sub-range has its own list of biomes, and all of the sub-range's entities will spawn in those biomes.
+# Disable entities (or a species variant) by setting "enabled" under their category to false.
+# Use ONLY whole numbers greater than 0 for chance, min, and max!
+# "chance" is how common they spawn, a higher number is more common than a lower number. "min" and "max" adjusts their spawning group size.
+# !! If modded biomes are not generated, delete the entire "biomes" line for each sub-category and restart minecraft. !!
+#
+#
+[dry_savanna]
+	biomes = ["minecraft:savanna", "minecraft:savanna_plateau", "minecraft:shattered_savanna", "minecraft:shattered_savanna_plateau", "genericeco:baobab_savanna", "genericeco:baobab_plateau", "genericeco:brushland", "genericeco:dense_brushland", "genericeco:canyon", "genericeco:canyon_plateau", "genericeco:dryland", "genericeco:dry_wildlands", "genericeco:lukewarm_lake", "genericeco:warm_lake", "genericeco:lush_savanna", "genericeco:lush_savanna_plateau", "genericeco:marula_savanna", "genericeco:marula_plateau", "genericeco:outback", "genericeco:outback_bushland", "otg:ssaow.shattered_savanna_plateau", "otg:ssaow.shattered_savanna", "otg:ssaow.savanna", "otg:ssaow.savanna_plateau", "otg:default.shattered_savanna_plateau", "otg:default.shattered_savanna", "otg:default.savanna", "otg:default.savanna_plateau", "projectvibrantjourneys:baobab_fields", "gaiadimension:fossil_woodland", "minecraft:desert", "minecraft:desert_hills", "minecraft:desert_lakes", "infernalexp:glowstone_canyon", "otg:ssaow.desert_lakes", "otg:ssaow.desert_hills", "otg:ssaow.desert", "otg:default.desert_lakes", "otg:default.desert_hills", "otg:default.desert", "atum:dead_oasis", "atum:dense_woods", "atum:sparse_woods", "atum:dried_river", "atum:limestone_crags", "atum:limestone_mountains", "atum:sand_dunes", "atum:sand_hills", "atum:sand_plains", "projectvibrantjourneys:desert_shrubland", "gaiadimension:salt_dunes"]
+
+	[dry_savanna.northern_giraffe]
+		chance = 10
+		min = 3
+		max = 5
+		enabled = true
+
+	[dry_savanna.butterfly]
+		chance = 10
+		min = 1
+		max = 4
+		enabled = true
+
+	[dry_savanna.yellow_billed_hornbill]
+		chance = 10
+		min = 2
+		max = 3
+		enabled = true
+
+	[dry_savanna.grevys_zebra]
+		chance = 10
+		min = 2
+		max = 6
+		enabled = true
+
+	[dry_savanna.african_lion]
+		chance = 8
+		min = 3
+		max = 6
+		enabled = true
+
+[wet_savanna]
+	biomes = ["minecraft:savanna", "minecraft:savanna_plateau", "genericeco:oasis", "genericeco:volcanic_island", "genericeco:volcanic_heights", "genericeco:bayou", "genericeco:bayou_glade", "genericeco:lukewarm_lake", "genericeco:warm_lake", "genericeco:lush_badlands_plateau", "genericeco:mangrove", "otg:ssaow.shattered_savanna_plateau", "otg:ssaow.shattered_savanna", "otg:ssaow.savanna", "otg:ssaow.savanna_plateau", "otg:default.shattered_savanna_plateau", "otg:default.shattered_savanna", "otg:default.savanna", "otg:default.savanna_plateau", "twilightforest:fire_swamp", "projectvibrantjourneys:verdant_sands", "gaiadimension:smoldering_bog"]
+
+	[wet_savanna.masai_giraffe]
+		chance = 10
+		min = 3
+		max = 5
+		enabled = true
+
+	[wet_savanna.african_lake_cichlid]
+		chance = 10
+		min = 5
+		max = 6
+		enabled = true
+
+	[wet_savanna.southern_giraffe]
+		chance = 10
+		min = 3
+		max = 5
+		enabled = true
+
+	[wet_savanna.african_wild_dog]
+		chance = 8
+		min = 4
+		max = 6
+		enabled = true
+
+	[wet_savanna.trumpeter_hornbill]
+		chance = 10
+		min = 2
+		max = 3
+		enabled = true
+
+	[wet_savanna.reticulated_giraffe]
+		chance = 10
+		min = 3
+		max = 5
+		enabled = true
+
+	[wet_savanna.jacksons_hornbill]
+		chance = 10
+		min = 2
+		max = 3
+		enabled = true
+
+	[wet_savanna.red_billed_hornbill]
+		chance = 10
+		min = 2
+		max = 3
+		enabled = true
+
+	[wet_savanna.king_baboon_tarantula]
+		chance = 4
+		min = 1
+		max = 1
+		enabled = true
+

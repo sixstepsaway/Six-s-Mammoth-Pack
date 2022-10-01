@@ -1,0 +1,26 @@
+{
+  "metadata": {
+    "item_id": "uncommon_lootbag",
+    "npc_ids": [
+      "minecraft:zombie",
+      "minecraft:skeleton",
+      "minecraft:spider",
+      "minecraft:cave_spider",
+      "minecraft:chicken"
+    ],
+    "drop_odds": 0.15,
+    "rolls": 3
+  },
+  "items": {
+    "minecraft:cobblestone": {
+      "max_count": 64,
+      "min_count": 1,
+      "weight": 999
+    },
+    "minecraft:wither_star": {
+      "max_count": 64,
+      "min_count": 1,
+      "weight": 1
+    }
+  }
+}

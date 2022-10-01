@@ -1,0 +1,21 @@
+{
+  "metadata": {
+    "item_id": "rare_lootbag",
+    "npc_ids": [
+      "minecraft:zombie",
+      "minecraft:skeleton",
+      "minecraft:spider",
+      "minecraft:cave_spider",
+      "minecraft:chicken"
+    ],
+    "drop_odds": 0.1,
+    "rolls": 3
+  },
+  "items": {
+    "minecraft:feather": {
+      "max_count": 32,
+      "min_count": 1,
+      "weight": 1
+    }
+  }
+}

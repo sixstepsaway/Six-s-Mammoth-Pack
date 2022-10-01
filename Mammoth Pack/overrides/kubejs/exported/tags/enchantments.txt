@@ -1,0 +1,4 @@
+To refresh this file, delete it and run /reload command again! Last updated: Sep 18, 2022 8:39:44 PM
+
+#forge:soulbound
+- corpsecomplex:soulbinding

@@ -1,0 +1,24 @@
+
+[Compatibility]
+
+	[Compatibility.vampirism]
+		disable_integrations_version_check = false
+		enable_compat_vampirism = true
+
+	[Compatibility.waila]
+		enable_compat_waila = true
+
+	[Compatibility.consecration]
+		enable_compat_consecration = true
+
+	[Compatibility.bloodmagic]
+		enable_compat_bloodmagic = true
+
+	[Compatibility.diet]
+		enable_compat_diet = true
+		#Disable diet functionality for vampires
+		disableVampireDiet = true
+
+	[Compatibility.tconstruct]
+		enable_compat_tconstruct = true
+

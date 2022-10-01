@@ -1,0 +1,18 @@
+
+#
+# This is 1 of ZAWA's 10 habitat ranges. Each sub-range has its own list of biomes, and all of the sub-range's entities will spawn in those biomes.
+# Disable entities (or a species variant) by setting "enabled" under their category to false.
+# Use ONLY whole numbers greater than 0 for chance, min, and max!
+# "chance" is how common they spawn, a higher number is more common than a lower number. "min" and "max" adjusts their spawning group size.
+# !! If modded biomes are not generated, delete the entire "biomes" line for each sub-category and restart minecraft. !!
+#
+#
+[coastal_taiga]
+	biomes = ["minecraft:taiga", "minecraft:giant_tree_taiga", "genericeco:boreal_forest", "genericeco:cedar_forest", "genericeco:coniferous_forest", "genericeco:coniferous_clearing", "genericeco:douglas_forest", "genericeco:evergreen_forest", "genericeco:fir_forest", "genericeco:great_lakes", "genericeco:hemlock_forest", "genericeco:larch_taiga", "genericeco:maple_taiga", "genericeco:meadow", "genericeco:meadow_forest", "genericeco:mixed_forest", "genericeco:needle_forest", "genericeco:pine_taiga", "genericeco:redwood_forest", "genericeco:redwood_forest_edge", "genericeco:sequoia_valley", "genericeco:sequoia_valley_edge", "genericeco:shield", "genericeco:sinister_forest", "genericeco:sinister_morass", "genericeco:yew_woods", "genericeco:yew_wooded_hills", "otg:ssaow.taiga", "otg:ssaow.giant_spruce_taiga", "otg:ssaow.giant_tree_taiga", "otg:ssaow.taiga_mountains", "otg:ssaow.giant_spruce_taiga_hills", "otg:default.taiga", "otg:default.giant_spruce_taiga", "otg:default.giant_tree_taiga", "otg:default.taiga_mountains", "otg:default.giant_spruce_taiga_hills", "projectvibrantjourneys:redwoods", "projectvibrantjourneys:boreal_forest", "projectvibrantjourneys:pine_meadows", "projectvibrantjourneys:autumnal_coniferous_forest", "projectvibrantjourneys:crimson_thicket", "projectvibrantjourneys:crystal_lakes", "gaiadimension:blue_agate_taiga", "druidcraft:darkwood_forest", "minecraft:beach", "minecraft:stone_shore", "minecraft:snowy_beach", "genericeco:gravel_beach", "genericeco:snowy_gravel_beach", "genericeco:wooded_estuary", "otg:ssaow.beach", "otg:ssaow.snowy_beach", "otg:ssaow.stone_shore", "otg:ssaow.mushroom_fields_shore", "otg:default.beach", "otg:default.snowy_beach", "otg:default.stone_shore", "otg:default.mushroom_fields_shore", "projectvibrantjourneys:gravel_shore", "projectvibrantjourneys:tropical_beach", "projectvibrantjourneys:windswept_shore"]
+
+	[coastal_taiga.bald_eagle]
+		chance = 8
+		min = 1
+		max = 1
+		enabled = true
+

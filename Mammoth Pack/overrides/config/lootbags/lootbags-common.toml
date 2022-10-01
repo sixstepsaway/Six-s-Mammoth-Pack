@@ -1,0 +1,7 @@
+#Whether or not lootbags are added to dungeon chests.
+enable_dungeon_loot = true
+#Whether or not lootbags are added as mob drops. Drops are configurable within the .json files.
+enable_mob_drops = true
+#Whether or not a reward screen is shown at all when opening lootbags.
+enable_rewards_screen = true
+

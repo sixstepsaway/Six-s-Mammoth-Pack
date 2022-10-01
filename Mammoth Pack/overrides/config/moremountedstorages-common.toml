@@ -1,0 +1,74 @@
+
+#Mod integration config
+[Integration]
+
+	#Industrial Foregoing
+	[Integration.industrialforegoing]
+
+		#Black Hole Unit
+		[Integration.industrialforegoing.black_hole_unit]
+			#Black Hole Unit storage priority. Items are inserted first into storages with higher priority. Default value is 10
+			priority = 10
+			#Enabled Black Hole Unit integration. Default value is true
+			enabled = true
+
+		#Black Hole Controller
+		[Integration.industrialforegoing.black_hole_controller]
+			#Black Hole Controller storage priority. Items are inserted first into storages with higher priority. Default value is 10
+			priority = 10
+			#Enabled Black Hole Controller integration. Default value is true
+			enabled = true
+
+	#EnderStorage
+	[Integration.enderstorage]
+
+		#Ender Storage
+		[Integration.enderstorage.ender_chest]
+			#Ender Storage storage priority. Items are inserted first into storages with higher priority. Default value is 1
+			priority = 1
+			#Enabled Ender Storage integration. Default value is true
+			enabled = true
+
+	#PneumaticCraft: Repressurized
+	[Integration.pneumaticcraft]
+
+		#PneumaticCraft Smart Chest
+		[Integration.pneumaticcraft.smart_chest]
+			#PneumaticCraft Smart Chest storage priority. Items are inserted first into storages with higher priority. Default value is 1
+			priority = 1
+			#Enabled PneumaticCraft Smart Chest integration. Default value is true
+			enabled = true
+
+	#Immersive Engineering
+	[Integration.immersiveengineering]
+
+		#Immersive Engineering Crate
+		[Integration.immersiveengineering.crate]
+			#Enabled Immersive Engineering Crate integration. Default value is true
+			enabled = true
+
+	#Iron Chests
+	[Integration.ironchest]
+
+		#Iron Chests
+		[Integration.ironchest.chest]
+			#Enabled Iron Chests integration. Default value is true
+			enabled = true
+
+	#Storage Drawers
+	[Integration.storagedrawers]
+
+		#standard drawers
+		[Integration.storagedrawers.drawer]
+			#Enabled standard drawers integration. Default value is true
+			enabled = true
+			#standard drawers storage priority. Items are inserted first into storages with higher priority. Default value is 10
+			priority = 10
+
+		#compacting drawers
+		[Integration.storagedrawers.compacting_drawer]
+			#Enabled compacting drawers integration. Default value is true
+			enabled = true
+			#compacting drawers storage priority. Items are inserted first into storages with higher priority. Default value is 10
+			priority = 10
+

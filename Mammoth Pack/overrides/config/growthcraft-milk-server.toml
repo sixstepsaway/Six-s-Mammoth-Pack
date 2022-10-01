@@ -1,0 +1,15 @@
+
+[churn]
+	#Set to true to allow users to access the Churn GUI.
+	guiEnabled = true
+
+[pancheon]
+	#Set to true to allow users to access the Pancheon GUI.
+	guiEnabled = true
+
+[mixing_vat]
+	#Set to true to allow users to access the Mixing Vat GUI.
+	guiEnabled = true
+	#Set to true to allow users to access the Mixing Vat GUI.
+	consumeMixingVatActivator = false
+

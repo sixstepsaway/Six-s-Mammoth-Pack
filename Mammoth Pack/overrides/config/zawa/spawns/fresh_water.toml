@@ -1,0 +1,27 @@
+
+#
+# This is 1 of ZAWA's 10 habitat ranges. Each sub-range has its own list of biomes, and all of the sub-range's entities will spawn in those biomes.
+# Disable entities (or a species variant) by setting "enabled" under their category to false.
+# Use ONLY whole numbers greater than 0 for chance, min, and max!
+# "chance" is how common they spawn, a higher number is more common than a lower number. "min" and "max" adjusts their spawning group size.
+# !! If modded biomes are not generated, delete the entire "biomes" line for each sub-category and restart minecraft. !!
+#
+#
+[fast_fresh_water]
+	biomes = ["minecraft:river", "minecraft:frozen_river", "genericeco:canyon", "genericeco:canyon_plateau", "otg:ssaow.river", "otg:ssaow.frozen_river", "otg:default.river", "otg:default.frozen_river", "atum:dried_river", "twilightforest:stream", "gaiadimension:mineral_river"]
+
+	[fast_fresh_water.salmon]
+		chance = 10
+		min = 6
+		max = 6
+		enabled = true
+
+[slow_fresh_water]
+	biomes = ["minecraft:swamp", "minecraft:swamp_hills", "genericeco:bayou", "genericeco:bayou_glade", "genericeco:bog", "genericeco:mushroom_bog", "genericeco:berry_bog", "genericeco:dark_swampland", "genericeco:dark_swampland_hills", "genericeco:dark_swampland_marshes", "genericeco:dying_swamp", "genericeco:dying_swamp_hills", "genericeco:fen", "genericeco:wooded_fen", "genericeco:lush_swamp", "genericeco:lush_swamp_hills", "genericeco:lush_swamp_marshes", "genericeco:mangrove", "genericeco:mire", "genericeco:wooded_mire", "genericeco:moor", "genericeco:moor_lowlands", "genericeco:muskeg", "genericeco:snowy_muskeg", "genericeco:quagmire", "genericeco:sinister_morass", "genericeco:swamp_marshes", "genericeco:wetland", "genericeco:wetland_forest", "otg:ssaow.swamp", "otg:ssaow.swamp_hills", "otg:default.swamp", "otg:default.swamp_hills", "twilightforest:swamp", "twilightforest:fire_swamp", "projectvibrantjourneys:mangrove_marsh", "projectvibrantjourneys:willow_wetlands", "gaiadimension:purple_agate_swamp", "ob_aquamirae:ice_maze", "genericeco:great_lakes", "genericeco:lake", "genericeco:mangrove", "projectvibrantjourneys:mangrove_marsh", "projectvibrantjourneys:willow_wetlands"]
+
+	[slow_fresh_water.flamingo]
+		chance = 15
+		min = 4
+		max = 6
+		enabled = true
+

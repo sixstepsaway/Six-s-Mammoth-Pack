@@ -1,0 +1,77 @@
+
+#Enable ParCool Actions
+["Possibility of Actions"]
+	#Possibility to FrontFlip
+	canFrontFlip = true
+	#Possibility to WallJump
+	canWallJump = true
+	#Possibility to FastRunning
+	canFastRunning = true
+	#Possibility to Roll
+	canRoll = true
+	#Possibility to CatLeap
+	canCatLeap = true
+	#Possibility to Crawl
+	canCrawl = true
+	#Possibility to Vault
+	canVault = true
+	#Possibility to ClingToCliff
+	canClingToCliff = true
+	#Possibility to Dodge
+	canDodge = true
+
+#Values
+["Modifier Values"]
+	#FastRun Speed Modifier
+	#Range: 0.001 ~ 5.0
+	fastRunModifier = 5.0
+
+#HUD
+["Stamina HUD configuration"]
+	#vertical alignment
+	#Allowed Values: Top, Bottom
+	align_V_S_HUD = "Bottom"
+	#use Light Stamina HUD
+	useLightHUD = false
+	#hide stamina HUD when Stamina is infinite
+	hideS_HUD = true
+	#horizontal margin
+	#Range: 0 ~ 100
+	margin_H_S_HUD = 3
+	#horizontal alignment
+	#Allowed Values: Left, Right
+	align_H_S_HUD = "Right"
+	#vertical offset of light stamina HUD
+	#Range: -50 ~ 50
+	offset_V_LS_HUD = 0
+	#vertical margin
+	#Range: 0 ~ 100
+	margin_V_S_HUD = 3
+
+#Others
+["Other configuration"]
+	#Infinite Stamina(this needs a permission from server, even if it is on single player's game)
+	#Please check 'parcool-server.toml' in 'serverconfig' directory
+	infiniteStamina = false
+	#Disable Dodge rotation of camera
+	disableCameraRotationDodge = false
+	#Disable Flipping of Dodge
+	disableFlipping = false
+	#Disable Double-Tapping For Dodge. Please Use Dodge Key instead
+	disableDoubleTapping = false
+	#Auto turning forward when WallJump
+	autoTurningWallJump = false
+	#Disable WallJump toward a wall
+	disableWallJumpTowardWall = false
+	#Disable Roll rotation of camera
+	disableCameraRotationRolling = false
+	#Replace vanilla sprint with Fast-Running
+	replaceSprintWithFastRun = true
+	#Substitute a sprint of vanilla for the FastRunning
+	substituteSprint = false
+
+#About ParCool
+[ParCool]
+	#ParCool is Active
+	ParCool_Activation = true
+

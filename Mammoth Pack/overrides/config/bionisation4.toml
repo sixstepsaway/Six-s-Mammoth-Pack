@@ -1,0 +1,69 @@
+
+#Time Settings
+[timings]
+	#Default mutation period for every B4 effect (ticks)
+	defaultMutationPeriod = 24000
+	#Default custom virus random duration (without Infinity Gene)
+	defaultCustomVirusDuration = 2720000
+	#Default Bionisation effect sync period (only for specific effects) (ticks)
+	defaultEffectSyncPeriod = 35
+
+#General Settings
+[death]
+	#Save Bionisation effects and stats after player death
+	saveAfterDeath = true
+
+#General Settings
+[settings]
+	#Enable version checker
+	showUpdates = true
+
+#General Settings
+[item]
+	#Default effect spread radius for vial
+	vialSpreadRadius = 10.0
+
+#Effect Settings
+[general]
+	#Enables random virus creation with random genes applied
+	randomVirusCreation = true
+	#Determine random virus spawn chance from 1 to 100
+	randomVirusSpawnChance = 5
+	#Determine random virus msx gene count
+	randomVirusGeneCount = 8
+	#Every N mobs there will be chance to spawn random wild virus
+	randomVirusMobCount = 20
+
+#Effect Settings
+[cures]
+	#Default antibiotic effect duration
+	defaultAntibioticDuration = 3200
+	#Default vaccine_creator effect duration
+	defaultVaccineDuration = 3200
+	#Default vaccine_creator cure chance
+	defaultVaccineCureChance = 50
+	#Default virus immunity effect duration
+	defaultImmunityDuration = 360000
+
+#Machine settings
+[timers]
+	#Default machine total work time
+	defaultVaccineCreatorProcessTime = 1200
+	#Default machine total work time
+	defaultDNAModifierProcessTime = 1200
+	#Default machine total work time
+	defaultCureStationProcessTime = 1200
+	#Default machine total work time
+	defaultVirusReplicatorProcessTime = 12000
+
+#Override settings
+[overrides]
+	#Effect names that should be disabled (they wont tick)
+	disabledEffects = []
+	#Gene names that should be disabled (they wont tick)
+	disabledGenes = []
+	#Modify effect durations (will be applied to all new instances). Format: name:duration. Example: Rabies:60000. Leave -1 for infinity
+	effectDurations = []
+	#Modify effect trigger chances. Format: id:chance. Example: 2:90 (2 i.e. Bleeding Effect, 90 - chance (0-100))
+	effectChances = []
+

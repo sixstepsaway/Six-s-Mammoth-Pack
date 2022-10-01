@@ -1,0 +1,44 @@
+{
+	/* The interval in milliseconds to send updates via the web-socket.
+	   Default: 1000
+	*/
+	"updateInterval": 1000,
+	/* The local address to bind to.
+	   Default: 0.0.0.0
+	*/
+	"bindAddress": "0.0.0.0",
+	/* The port to bind to.
+	   Default: 14001
+	*/
+	"bindPort": 14001,
+	/* The path to the PEM formatted SSL Certificate.
+	   When both this element and 'sslPrivateKey' are specified. SSL will be enabled.
+	   For LetsEncrypt based usages, specify your 'fullchain.pem' file from certbot.
+	   Default: null
+	*/
+	"sslCertificate": null,
+	/* The path to the PEM formatted SSL Private Key.
+	   When both this element and 'sslCertificate' are specified. SSL will be enabled.
+	   For LetsEncrypt based usages, specify your 'privkey.pem' file from certbot.
+	   Default: null
+	*/
+	"sslPrivateKey": null,
+	/* Set this to a password/string/token/whatever to enable websocket/http authentication.
+	   Default: null
+	*/
+	"accessToken": null,
+	// Configure Overall profiler settings.
+	"profilers": {
+		// Configure entity profiler settings.
+		"entity": {
+			/* Indicate how many entity types to return when grouping by entity type.
+			   Default: 20
+			*/
+			"maxGroupByType": 20,
+			/* Indicate how many chunks to return when grouping by chunk.
+			   Default: 20
+			*/
+			"maxGroupByChunk": 20,
+		},
+	},
+}

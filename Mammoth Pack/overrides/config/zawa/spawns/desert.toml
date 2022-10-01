@@ -1,0 +1,51 @@
+
+#
+# This is 1 of ZAWA's 10 habitat ranges. Each sub-range has its own list of biomes, and all of the sub-range's entities will spawn in those biomes.
+# Disable entities (or a species variant) by setting "enabled" under their category to false.
+# Use ONLY whole numbers greater than 0 for chance, min, and max!
+# "chance" is how common they spawn, a higher number is more common than a lower number. "min" and "max" adjusts their spawning group size.
+# !! If modded biomes are not generated, delete the entire "biomes" line for each sub-category and restart minecraft. !!
+#
+#
+[hot_desert]
+	biomes = ["minecraft:desert", "minecraft:desert_hills", "minecraft:badlands", "minecraft:wooded_badlands_plateau", "minecraft:badlands_plateau", "minecraft:desert_lakes", "infernalexp:glowstone_canyon", "otg:ssaow.desert_lakes", "otg:ssaow.modified_wooded_badlands_plateau", "otg:ssaow.badlands", "otg:ssaow.badlands_plateau", "otg:ssaow.eroded_badlands", "otg:ssaow.desert_hills", "otg:ssaow.modified_badlands_plateau", "otg:ssaow.wooded_badlands_plateau", "otg:ssaow.desert", "otg:default.desert_lakes", "otg:default.modified_wooded_badlands_plateau", "otg:default.badlands", "otg:default.badlands_plateau", "otg:default.eroded_badlands", "otg:default.desert_hills", "otg:default.modified_badlands_plateau", "otg:default.wooded_badlands_plateau", "otg:default.desert", "atum:dead_oasis", "atum:dense_woods", "atum:sparse_woods", "atum:dried_river", "atum:limestone_crags", "atum:limestone_mountains", "atum:sand_dunes", "atum:sand_hills", "atum:sand_plains", "projectvibrantjourneys:verdant_sands", "projectvibrantjourneys:desert_shrubland", "projectvibrantjourneys:red_rock_valley", "gaiadimension:salt_dunes"]
+
+	[hot_desert.common_yellow_scorpion]
+		chance = 4
+		min = 1
+		max = 1
+		enabled = true
+
+	[hot_desert.giant_hairy_scorpion]
+		chance = 4
+		min = 1
+		max = 1
+		enabled = true
+
+	[hot_desert.chilean_rosehair_tarantula]
+		chance = 4
+		min = 1
+		max = 1
+		enabled = true
+
+	[hot_desert.red_kangaroo]
+		chance = 15
+		min = 2
+		max = 5
+		enabled = true
+
+	[hot_desert.western_desert_tarantula]
+		chance = 4
+		min = 1
+		max = 1
+		enabled = true
+
+	[hot_desert.greenbottle_blue_tarantula]
+		chance = 4
+		min = 1
+		max = 1
+		enabled = true
+
+[coastal_desert]
+	biomes = ["minecraft:mushroom_field_shore", "minecraft:beach", "minecraft:stone_shore", "genericeco:wooded_estuary", "otg:ssaow.beach", "otg:ssaow.stone_shore", "otg:ssaow.mushroom_fields_shore", "otg:default.beach", "otg:default.stone_shore", "otg:default.mushroom_fields_shore", "projectvibrantjourneys:gravel_shore", "projectvibrantjourneys:tropical_beach", "projectvibrantjourneys:windswept_shore", "minecraft:savanna", "genericeco:baobab_savanna", "genericeco:baobab_plateau", "genericeco:brushland", "genericeco:dense_brushland", "genericeco:canyon", "genericeco:canyon_plateau", "genericeco:dryland", "genericeco:dry_wildlands", "genericeco:lukewarm_lake", "genericeco:warm_lake", "genericeco:lush_savanna", "genericeco:lush_savanna_plateau", "genericeco:marula_savanna", "genericeco:marula_plateau", "genericeco:outback", "genericeco:outback_bushland", "otg:ssaow.shattered_savanna_plateau", "otg:ssaow.shattered_savanna", "otg:ssaow.savanna", "otg:ssaow.savanna_plateau", "otg:default.shattered_savanna_plateau", "otg:default.shattered_savanna", "otg:default.savanna", "otg:default.savanna_plateau", "projectvibrantjourneys:verdant_sands", "projectvibrantjourneys:baobab_fields", "gaiadimension:fossil_woodland"]
+

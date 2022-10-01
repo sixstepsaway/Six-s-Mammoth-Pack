@@ -1,0 +1,7 @@
+#IDs for blocks to break.
+breakableBlocks = ["minecraft:bookshelf", "minecraft:enchanting_table", "minecraft:smithing_table", "minecraft:furnace", "minecraft:blast_furnace", "minecraft:smoker", "minecraft:torch", "minecraft:brewing_stand", "minecraft:lectern", "minecraft:redstone_wire", "minecraft:white_bed", "minecraft:orange_bed", "minecraft:magenta_bed", "minecraft:light_blue_bed", "minecraft:yellow_bed", "minecraft:lime_bed", "minecraft:pink_bed", "minecraft:gray_bed", "minecraft:light_gray_bed", "minecraft:cyan_bed", "minecraft:purple_bed", "minecraft:blue_bed", "minecraft:brown_bed", "minecraft:green_bed", "minecraft:red_bed", "minecraft:black_bed"]
+#The mod will check every [this number] ticks to see if it's raining, and if so, break blocks. There are 20 ticks in a second.
+checkEveryNTicks = 200
+#When we check and it's raining, we'll look at this number of random blocks inside each chunk, and possibly break them.
+tryBreakNBlocksPerChunk = 5
+

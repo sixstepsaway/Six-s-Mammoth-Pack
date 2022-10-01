@@ -1,0 +1,74 @@
+[
+  {
+    "dimension": "minecraft:overworld",
+    "mob": "alexsmobs:crow",	
+    "mincount": {
+      "amount": 5,
+      "mob": "alexsmobs:crow"
+    },
+	  "onjoin": true,
+    "result": "deny"
+  },
+  {
+    "dimension": "minecraft:overworld",
+    "mob": "alexsmobs:raccoon",	
+    "mincount": {
+      "amount": 5,
+      "mob": "alexsmobs:raccoon"
+    },
+	  "onjoin": true,
+    "result": "deny"
+  },
+  {
+    "dimension": "minecraft:overworld",
+    "mob": "alexsmobs:seal",	
+    "mincount": {
+      "amount": 5,
+      "mob": "alexsmobs:seal"
+    },
+	  "onjoin": true,
+    "result": "deny"
+  },
+  {
+    "dimension": "minecraft:overworld",
+    "mob": "alexsmobs:roadrunner",	
+    "mincount": {
+      "amount": 5,
+      "mob": "alexsmobs:roadrunner"
+    },
+	  "onjoin": true,
+    "result": "deny"
+  },
+  {
+    "dimension": "minecraft:overworld",
+    "mob": "alexsmobs:gorilla",	
+    "mincount": {
+      "amount": 5,
+      "mob": "alexsmobs:gorilla"
+    },
+	  "onjoin": true,
+    "result": "deny"
+  },
+  {
+    "dimension": "minecraft:overworld",
+    "mob": "prehistoricfauna:henos",	
+	  "onjoin": true,
+    "result": "deny"
+  },
+  {
+    "dimension": "minecraft:overworld",
+    "mob": "artifacts:mimic",	
+    "mincount": {
+      "amount": 2,
+      "mob": "artifacts:mimic"
+    },
+	  "onjoin": true,
+    "result": "deny"
+  },
+  {
+    "dimension": "minecraft:overworld",
+    "mod": "mekanismadditions",	
+	  "onjoin": true,
+    "result": "deny"
+  }
+]

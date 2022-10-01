@@ -1,0 +1,29 @@
+{
+  "metadata": {
+    "item_id": "legendary_lootbag",
+    "npc_ids": [
+      "minecraft:wither",
+      "minecraft:ender_dragon",
+      "minecraft:ravager"
+    ],
+    "drop_odds": 0.66,
+    "rolls": 1
+  },
+  "items": {
+    "minecraft:nether_star": {
+      "max_count": 1,
+      "min_count": 1,
+      "weight": 1
+    },
+    "minecraft:beacon": {
+      "max_count": 1,
+      "min_count": 1,
+      "weight": 1
+    },
+    "minecraft:diamond_block": {
+      "max_count": 1,
+      "min_count": 1,
+      "weight": 1
+    }
+  }
+}

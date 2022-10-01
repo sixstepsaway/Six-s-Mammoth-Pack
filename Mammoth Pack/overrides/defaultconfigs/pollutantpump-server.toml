@@ -1,0 +1,16 @@
+#The max amount of energy the pump will hold
+#Range: > 0
+pumpMaxEnergyStorage = 1000
+#The amount of energy the pump will use per tick
+#Range: > 0
+pumpEnergyUse = 50
+#The time in ticks between each pollutant block the pump tries to suck up
+#Range: > 1
+pumpWorkRate = 60
+#The height range (Y) from the top pipe that pollution will be sucked from
+#Range: > 0
+pumpRangeHeight = 1
+#The width range (X/Z) from the top pipe that pollution will be sucked from
+#Range: > 1
+pumpRangeWidth = 5
+

@@ -1,0 +1,16 @@
+
+["souljar configuration"]
+	#list of mod names to whitelist (specifying an empty whitelist allows any mob; specifying any mod only allows those mods)
+	mod_whitelist = []
+	#entities with this many hearts or more are blocked from being picked up by the soul jar (-1.0 to disable)
+	#Range: -1.0 ~ 1.7976931348623157E308
+	health_maximum = -1.0
+	#list of mod names to blacklist (specifying an empty blacklist allows any mod, specifying any mod prevents any mobs from that mod)
+	mod_blacklist = []
+	#list of mobs to whitelist (by entity type as a resource location, i.e., ["minecraft:cow", "minecraft:chicken"]
+	mob_blacklist = []
+	#list of entities that need to use an event for interaction; add an entity type to this list if they aren't picked up by the soul jar
+	mob_bypass_list = ["minecraft:horse", "minecraft:donkey", "minecraft:mule", "minecraft:zombie_horse", "minecraft:skeleton_horse", "minecraft:villager", "minecraft:llama", "minecraft:trader_llama", "minecraft:wandering_trader", "minecraft:pig", "minecraft:strider"]
+	#whether or not 'boss' entities should be allowed to be picked up
+	disable_boss_entities = true
+

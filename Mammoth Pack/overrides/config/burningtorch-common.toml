@@ -1,0 +1,70 @@
+
+#General configuration settings
+[General]
+	#How quickly an unprotected torch will react to a storm in ticks, Lower values are faster. 20 ticks = 1 second, 1200 ticks = 1 minute, 72000 ticks = 1 hour
+	#Range: > 1
+	rainUpdateRate = 40
+	#How many ticks between decay levels. 20 ticks = 1 second, 1200 ticks = 1 minute, 72000 ticks = 1 hour
+	#Range: > 1
+	decayRate = 18000
+	#Should rain extinguish unprotected torches?
+	shouldRainExtinguish = true
+	#Item Tag lists that are valid fuel sources for torches to consume. Number is the value for every item in the list.
+	extendingItems = ["burningtorch:fuel_value_5,5", "burningtorch:fuel_value_1,1"]
+
+#Torch configuration settings
+[Torches]
+	#How much light does a burning out torches give?
+	#Range: 0 ~ 16
+	lightatlevel1 = 15
+	#How much light does an almost burnt out torches give?
+	#Range: 0 ~ 16
+	lightatlevel2 = 15
+	#Toggle if torches burn entities when lit. true=lit false=unlit
+	torchesBurnEntities = true
+	#What decay level do the torches start at?
+	#Range: 1 ~ 5
+	torchStartingDecayLevel = 5
+	#Toggle if torches burn entities when lit. true=burn false=no burn
+	torchesStartFireWhenLit = true
+	#How much light does new torches give?
+	#Range: 0 ~ 16
+	lightatlevel5 = 15
+	#% Chance to start a fire near a torch.
+	#Range: 1 ~ 100
+	percentToStartFire = 50
+	#Delay between the chance for a torch to start a fire in ticks. 20 ticks = 1 second, 1200 ticks = 1 minute, 72000 ticks = 1 hour
+	#Range: > 1
+	delayBetweenFire = 40
+	#Toggle whither torches are lit when placed or unlit. true=lit false=unlit
+	placeLitTorches = true
+	#How much light does a half used torches give?
+	#Range: 0 ~ 16
+	lightatlevel3 = 15
+	#How much light does an almost new torches give?
+	#Range: 0 ~ 16
+	lightatlevel4 = 15
+
+#Pumpkin configuration settings
+[Pumpkin]
+	#How much light does a burning out torches give?
+	#Range: 0 ~ 16
+	lightatlevel1 = 15
+	#How much light does an almost burnt out torches give?
+	#Range: 0 ~ 16
+	lightatlevel2 = 15
+	#What decay level do the torches start at?
+	#Range: 1 ~ 5
+	pumpkinStartingDecayLevel = 5
+	#Toggle if pumpkins are lit when placed or unlit. true=lit false=unlit
+	placeLitPumpkins = true
+	#How much light does new torches give?
+	#Range: 0 ~ 16
+	lightatlevel5 = 15
+	#How much light does a half used torches give?
+	#Range: 0 ~ 16
+	lightatlevel3 = 15
+	#How much light does an almost new torches give?
+	#Range: 0 ~ 16
+	lightatlevel4 = 15
+

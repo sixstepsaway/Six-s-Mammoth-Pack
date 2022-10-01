@@ -1,0 +1,46 @@
+To refresh this file, delete it and run /reload command again! Last updated: Sep 18, 2022 8:39:44 PM
+
+#minecolonies:mob_attack_blacklist
+- minecraft:enderman
+- minecraft:llama
+
+#iceandfire:cows
+- minecraft:cow
+- eanimod:enhanced_cow
+
+#minecraft:impact_projectiles
+- #minecraft:arrows
+- minecraft:snowball
+- minecraft:fireball
+- minecraft:small_fireball
+- minecraft:egg
+- minecraft:trident
+- minecraft:dragon_fireball
+- minecraft:wither_skull
+
+#minecraft:beehive_inhabitors
+- minecraft:bee
+
+#iceandfire:chickens
+- minecraft:chicken
+- eanimod:enhanced_chicken
+
+#minecraft:skeletons
+- minecraft:skeleton
+- minecraft:stray
+- minecraft:wither_skeleton
+
+#minecolonies:hostile
+- minecraft:slime
+
+#minecraft:raiders
+- minecraft:evoker
+- minecraft:pillager
+- minecraft:ravager
+- minecraft:vindicator
+- minecraft:illusioner
+- minecraft:witch
+
+#minecraft:arrows
+- minecraft:arrow
+- minecraft:spectral_arrow

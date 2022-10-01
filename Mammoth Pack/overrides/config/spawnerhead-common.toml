@@ -1,0 +1,18 @@
+
+["Spawner Head Settings"]
+	#Spawner heads loot will be based off their mob spawner entity. Setting to false will have them drop zombie loot
+	"Drop Special Loot" = true
+	#Average Spawn Rate (example: '75' means 1 in 75 zombies will be a spawner head)
+	#Range: 1 ~ 100000
+	"Spawn Rate" = 50
+	#Set spawner head mobs to burn in sunlight like regular undead
+	"Burns In Sunlight" = true
+	#Make spawner heads immune to skeleton arrows
+	"Skeleton Arrow Immunity" = false
+	#Allow players to use lead items on spawner heads
+	"Can be leashed" = false
+
+	["Spawner Head Settings"."Spawner Head Potential Spawns Settings"]
+		#Weighted list of possible spawner mobs, use 'entity_id-weight' format, eg (minecraft:husk-100)
+		"Potential Spawner Mobs" = ["minecraft:zombie-100", "minecraft:spider-100", "minecraft:husk-75", "minecraft:stray-50", "minecraft:skeleton-50"]
+

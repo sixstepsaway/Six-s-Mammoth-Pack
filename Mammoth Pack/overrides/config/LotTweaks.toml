@@ -1,0 +1,25 @@
+
+[common]
+	#Range: 0 ~ 256
+	MAX_RANGE = 128
+
+[client]
+	#Range: 1 ~ 256
+	REPLACE_INTERVAL = 1
+	#Default: false
+	DISABLE_ANIMATIONS = false
+	#Default: false -> Double-tap to switch to the secondary group
+	SNEAK_TO_SWITCH_GROUP = false
+	#Default: false
+	INVERT_REPLACE_LOCK = false
+	#'true' is highly recommended
+	SHOW_BLOCKCONFIG_ERROR_LOG_TO_CHAT = true
+	#Range: 0.0 ~ 256.0
+	REACH_RANGE_AT_DEFAULT = 6.0
+	#Range: -256.0 ~ 256.0
+	REACH_RANGE_AT_EXTENSION = 100.0
+
+[server]
+	#Default: false
+	REQUIRE_OP_TO_USE_REPLACE = false
+

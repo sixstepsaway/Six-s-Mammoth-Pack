@@ -1,0 +1,18 @@
+
+#Valid Biome Types:
+#Temperature: [HOT, COLD] 
+#Vegetation: [SPARSE, DENSE] 
+#Humidity: [WET, DRY] 
+#Tree Types: [SAVANNA, CONIFEROUS, JUNGLE] 
+#Attributes: [SPOOKY, DEAD, LUSH, MUSHROOM, MAGICAL, RARE, PLATEAU, MODIFIED, OCEAN, RIVER, WATER] 
+#Generic Types: [MESA, FOREST, PLAINS, MOUNTAIN, HILLS, SWAMP, SANDY, SNOWY, WASTELAND, BEACH, VOID] 
+#Use: [OVERWORLD] to generate in all biomes
+["WILD HEMP"]
+	#Default [1]
+	"Frequency:" = 1
+	"Enabled:" = true
+	#Default [1]
+	"Patch Size:" = 1
+	#Default: [OVERWORLD]
+	"Biome Type:" = "OVERWORLD"
+

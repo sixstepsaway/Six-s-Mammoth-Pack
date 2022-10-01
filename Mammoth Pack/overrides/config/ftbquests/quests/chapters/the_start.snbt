@@ -1,0 +1,10 @@
+{
+	id: "08881192A0FEB925"
+	group: "782BC2F606C61F5C"
+	order_index: 0
+	filename: "the_start"
+	title: "The Start"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [ ]
+}
