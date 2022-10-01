@@ -6,6 +6,10 @@ Working title - final title not yet decided on.
 
 489 mods. The game runs with minimal TPS drops, but needs tweaking and working on. No customization implemented yet.
 
+## Info
+
+Because of how many mods are in this pack, creating a singleplayer world takes approximately 9 minutes (I counted), please be patient!
+
 ## Important
 
 To run, please use 8GB of RAM and these JVM arguments:
