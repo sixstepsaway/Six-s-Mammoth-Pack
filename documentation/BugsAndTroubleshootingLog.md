@@ -1,4 +1,4 @@
-# Bugs/Troubleshooting**
+# Bugs/Troubleshooting
 
 #### Why?
 
