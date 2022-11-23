@@ -1,0 +1,31 @@
+type = hud
+
+customization-meta {
+  randomgroup = 1
+  keepaspectratio = false
+  renderorder = foreground
+  randommode = false
+  randomonlyfirsttime = false
+}
+
+customization {
+  visible = false
+  x = -14
+  action = editlogo
+  y = -43
+}
+
+customization {
+  orientation = mid-centered
+  x = 0
+  action = editforgememoryinfo
+  y = 0
+}
+
+customization {
+  orientation = mid-centered
+  x = 1
+  action = editprogressbar
+  y = 20
+}
+

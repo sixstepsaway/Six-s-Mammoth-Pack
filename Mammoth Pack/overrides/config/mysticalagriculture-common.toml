@@ -12,11 +12,11 @@
 	#Should fake players be able to use watering cans?
 	fakePlayerWatering = true
 	#Should the Ender Dragon drop essence when killed with an essence weapon?
-	dragonDropsEssence = true
+	dragonDropsEssence = false
 	#Should right clicking on Farmland with an Essence create Essence Farmland?
-	essenceFarmlandConversion = true
+	essenceFarmlandConversion = false
 	#Should the Wither drop essence when killed with an essence weapon?
-	witherDropsEssence = true
+	witherDropsEssence = false
 	#Should crops have a chance of dropping a second seed when harvested?
 	secondarySeedDrops = true
 	#The percentage chance that harvesting a Resource Crop will drop a Fertilized Essence.
@@ -24,7 +24,7 @@
 	fertilizedEssenceChance = 0.1
 	#The percentage chance that a passive or hostile mob will drop an Inferium Essence when killed.
 	#Range: 0.0 ~ 1.0
-	inferiumDropChance = 0.2
+	inferiumDropChance = 0.0
 	#Should Supremium Tools be enchantable in an Enchanting Table?
 	enchantableSupremiumTools = false
 
@@ -39,12 +39,12 @@
 	#The list of biome IDs that Prosperity Ore veins can spawn in.
 	prosperityBiomeWhitelist = []
 	#Should Inferium Ore generate in the world?
-	generateInferiumOre = true
+	generateInferiumOre = false
 	#The maximum amount of Soulstone blocks that can spawn in a vein.
 	#Range: 0 ~ 64
 	soulstoneSpawnSize = 64
 	#How many Soulstone veins should spawn in a chunk.
-	generateSoulstone = true
+	generateSoulstone = false
 	#How many Soulstone veins should spawn in a chunk.
 	#Range: 0 ~ 128
 	soulstoneSpawnRate = 4
@@ -66,7 +66,7 @@
 	#Range: 0 ~ 256
 	prosperitySpawnHeight = 50
 	#Should Prosperity Ore generate in the world?
-	generateProsperityOre = true
+	generateProsperityOre = false
 	#The list of biome IDs that Soulstone veins can spawn in.
 	soulstoneBiomeWhitelist = []
 

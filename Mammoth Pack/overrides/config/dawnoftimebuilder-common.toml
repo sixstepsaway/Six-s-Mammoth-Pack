@@ -211,11 +211,15 @@
 		#For each spawn zone, a position will be chose x times to place this plant, with x the following value :
 		#Range: 1 ~ 200
 		wildGrapeRolls = 64
+		#List of biomes where this plant should spawn during world generation (must be empty if the plant must not spawn :
+		wildGrapeBiomes = []
 
 	[world_generation.wild_maize]
 		#For each spawn zone, a position will be chose x times to place this plant, with x the following value :
 		#Range: 1 ~ 200
 		wildMaizeRolls = 64
+		#List of biomes where this plant should spawn during world generation (must be empty if the plant must not spawn :
+		wildMaizeBiomes = []
 
 	[world_generation.mulberry]
 		#For each spawn zone, a position will be chose x times to place this plant, with x the following value :
@@ -231,6 +235,8 @@
 		#For each spawn zone, a position will be chose x times to place this plant, with x the following value :
 		#Range: 1 ~ 200
 		riceRolls = 64
+		#List of biomes where this plant should spawn during world generation (must be empty if the plant must not spawn :
+		riceBiomes = []
 
 	[world_generation.camellia]
 		#For each spawn zone, a position will be chose x times to place this plant, with x the following value :

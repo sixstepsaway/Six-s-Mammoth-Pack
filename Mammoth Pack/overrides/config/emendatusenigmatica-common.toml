@@ -46,7 +46,7 @@
 		#Range: 0 ~ 64
 		overworld_size = 17
 		#Activate/Deactivate the Ore Gen in The Overworld [Default: true]
-		generate_in_the_overworld = true
+		generate_in_the_overworld = false
 
 	["Coal Config"."The End"]
 		#Baseline Y-Level [Default: 80]
@@ -117,7 +117,7 @@
 		#Range: 0 ~ 64
 		overworld_size = 11
 		#Activate/Deactivate the Ore Gen in The Overworld [Default: true]
-		generate_in_the_overworld = true
+		generate_in_the_overworld = false
 
 	["Iron Config"."The End"]
 		#Baseline Y-Level [Default: 52]
@@ -188,7 +188,7 @@
 		#Range: 0 ~ 64
 		overworld_size = 8
 		#Activate/Deactivate the Ore Gen in The Overworld [Default: true]
-		generate_in_the_overworld = true
+		generate_in_the_overworld = false
 
 	["Gold Config"."The End"]
 		#Baseline Y-Level [Default: 36]
@@ -259,7 +259,7 @@
 		#Range: 0 ~ 64
 		overworld_size = 8
 		#Activate/Deactivate the Ore Gen in The Overworld [Default: true]
-		generate_in_the_overworld = true
+		generate_in_the_overworld = false
 
 	["Diamond Config"."The End"]
 		#Baseline Y-Level [Default: 28]
@@ -330,7 +330,7 @@
 		#Range: 0 ~ 64
 		overworld_size = 4
 		#Activate/Deactivate the Ore Gen in The Overworld [Default: true]
-		generate_in_the_overworld = true
+		generate_in_the_overworld = false
 
 	["Emerald Config"."The End"]
 		#Baseline Y-Level [Default: 176]
@@ -401,7 +401,7 @@
 		#Range: 0 ~ 64
 		overworld_size = 7
 		#Activate/Deactivate the Ore Gen in The Overworld [Default: true]
-		generate_in_the_overworld = true
+		generate_in_the_overworld = false
 
 	["Lapis Lazuli Config"."The End"]
 		#Baseline Y-Level [Default: 28]
@@ -472,7 +472,7 @@
 		#Range: 0 ~ 64
 		overworld_size = 11
 		#Activate/Deactivate the Ore Gen in The Overworld [Default: true]
-		generate_in_the_overworld = true
+		generate_in_the_overworld = false
 
 	["Redstone Config"."The End"]
 		#Baseline Y-Level [Default: 28]
@@ -543,7 +543,7 @@
 		#Range: 0 ~ 64
 		overworld_size = 14
 		#Activate/Deactivate the Ore Gen in The Overworld [Default: true]
-		generate_in_the_overworld = true
+		generate_in_the_overworld = false
 
 	["Nether Quartz Config"."The End"]
 		#Baseline Y-Level [Default: 80]
@@ -614,7 +614,7 @@
 		#Range: 0 ~ 64
 		overworld_size = 7
 		#Activate/Deactivate the Ore Gen in The Overworld [Default: true]
-		generate_in_the_overworld = true
+		generate_in_the_overworld = false
 
 	["Copper Config"."The End"]
 		#Baseline Y-Level [Default: 72]
@@ -685,7 +685,7 @@
 		#Range: 0 ~ 64
 		overworld_size = 5
 		#Activate/Deactivate the Ore Gen in The Overworld [Default: true]
-		generate_in_the_overworld = true
+		generate_in_the_overworld = false
 
 	["Aluminum Config"."The End"]
 		#Baseline Y-Level [Default: 80]
@@ -756,7 +756,7 @@
 		#Range: 0 ~ 64
 		overworld_size = 5
 		#Activate/Deactivate the Ore Gen in The Overworld [Default: true]
-		generate_in_the_overworld = true
+		generate_in_the_overworld = false
 
 	["Silver Config"."The End"]
 		#Baseline Y-Level [Default: 54]
@@ -827,7 +827,7 @@
 		#Range: 0 ~ 64
 		overworld_size = 5
 		#Activate/Deactivate the Ore Gen in The Overworld [Default: true]
-		generate_in_the_overworld = true
+		generate_in_the_overworld = false
 
 	["Lead Config"."The End"]
 		#Baseline Y-Level [Default: 56]
@@ -898,7 +898,7 @@
 		#Range: 0 ~ 64
 		overworld_size = 4
 		#Activate/Deactivate the Ore Gen in The Overworld [Default: true]
-		generate_in_the_overworld = true
+		generate_in_the_overworld = false
 
 	["Nickel Config"."The End"]
 		#Baseline Y-Level [Default: 52]
@@ -969,7 +969,7 @@
 		#Range: 0 ~ 64
 		overworld_size = 6
 		#Activate/Deactivate the Ore Gen in The Overworld [Default: true]
-		generate_in_the_overworld = true
+		generate_in_the_overworld = false
 
 	["Uranium Config"."The End"]
 		#Baseline Y-Level [Default: 32]
@@ -1040,7 +1040,7 @@
 		#Range: 0 ~ 64
 		overworld_size = 6
 		#Activate/Deactivate the Ore Gen in The Overworld [Default: true]
-		generate_in_the_overworld = true
+		generate_in_the_overworld = false
 
 	["Osmium Config"."The End"]
 		#Baseline Y-Level [Default: 52]
@@ -1111,7 +1111,7 @@
 		#Range: 0 ~ 64
 		overworld_size = 7
 		#Activate/Deactivate the Ore Gen in The Overworld [Default: true]
-		generate_in_the_overworld = true
+		generate_in_the_overworld = false
 
 	["Tin Config"."The End"]
 		#Baseline Y-Level [Default: 67]
@@ -1182,7 +1182,7 @@
 		#Range: 0 ~ 64
 		overworld_size = 5
 		#Activate/Deactivate the Ore Gen in The Overworld [Default: true]
-		generate_in_the_overworld = true
+		generate_in_the_overworld = false
 
 	["Zinc Config"."The End"]
 		#Baseline Y-Level [Default: 62]
@@ -1253,7 +1253,7 @@
 		#Range: 0 ~ 64
 		overworld_size = 8
 		#Activate/Deactivate the Ore Gen in The Overworld [Default: true]
-		generate_in_the_overworld = true
+		generate_in_the_overworld = false
 
 	["Cobalt Config"."The End"]
 		#Baseline Y-Level [Default: 52]
@@ -1324,7 +1324,7 @@
 		#Range: 0 ~ 64
 		overworld_size = 6
 		#Activate/Deactivate the Ore Gen in The Overworld [Default: true]
-		generate_in_the_overworld = true
+		generate_in_the_overworld = false
 
 	["Iridium Config"."The End"]
 		#Baseline Y-Level [Default: 32]
@@ -1395,7 +1395,7 @@
 		#Range: 0 ~ 64
 		overworld_size = 8
 		#Activate/Deactivate the Ore Gen in The Overworld [Default: true]
-		generate_in_the_overworld = true
+		generate_in_the_overworld = false
 
 	["Certus Quartz Config"."The End"]
 		#Baseline Y-Level [Default: 52]
@@ -1466,7 +1466,7 @@
 		#Range: 0 ~ 64
 		overworld_size = 4
 		#Activate/Deactivate the Ore Gen in The Overworld [Default: true]
-		generate_in_the_overworld = true
+		generate_in_the_overworld = false
 
 	["Charged Certus Quartz Config"."The End"]
 		#Baseline Y-Level [Default: 36]
@@ -1537,7 +1537,7 @@
 		#Range: 0 ~ 64
 		overworld_size = 9
 		#Activate/Deactivate the Ore Gen in The Overworld [Default: true]
-		generate_in_the_overworld = true
+		generate_in_the_overworld = false
 
 	["Fluorite Config"."The End"]
 		#Baseline Y-Level [Default: 36]
@@ -1608,7 +1608,7 @@
 		#Range: 0 ~ 64
 		overworld_size = 18
 		#Activate/Deactivate the Ore Gen in The Overworld [Default: true]
-		generate_in_the_overworld = true
+		generate_in_the_overworld = false
 
 	["Bitumen Config"."The End"]
 		#Baseline Y-Level [Default: 120]
@@ -1679,7 +1679,7 @@
 		#Range: 0 ~ 64
 		overworld_size = 5
 		#Activate/Deactivate the Ore Gen in The Overworld [Default: true]
-		generate_in_the_overworld = true
+		generate_in_the_overworld = false
 
 	["Cinnabar Config"."The End"]
 		#Baseline Y-Level [Default: 30]
@@ -1750,7 +1750,7 @@
 		#Range: 0 ~ 64
 		overworld_size = 22
 		#Activate/Deactivate the Ore Gen in The Overworld [Default: true]
-		generate_in_the_overworld = true
+		generate_in_the_overworld = false
 
 	["Apatite Config"."The End"]
 		#Baseline Y-Level [Default: 116]
@@ -1821,7 +1821,7 @@
 		#Range: 0 ~ 64
 		overworld_size = 7
 		#Activate/Deactivate the Ore Gen in The Overworld [Default: true]
-		generate_in_the_overworld = true
+		generate_in_the_overworld = false
 
 	["Sulfur Config"."The End"]
 		#Baseline Y-Level [Default: 28]
@@ -1892,7 +1892,7 @@
 		#Range: 0 ~ 64
 		overworld_size = 5
 		#Activate/Deactivate the Ore Gen in The Overworld [Default: true]
-		generate_in_the_overworld = true
+		generate_in_the_overworld = false
 
 	["Potassium Nitrate Config"."The End"]
 		#Baseline Y-Level [Default: 45]
@@ -1963,7 +1963,7 @@
 		#Range: 0 ~ 64
 		overworld_size = 6
 		#Activate/Deactivate the Ore Gen in The Overworld [Default: true]
-		generate_in_the_overworld = true
+		generate_in_the_overworld = false
 
 	["Arcane Config"."The End"]
 		#Baseline Y-Level [Default: 53]
@@ -2034,7 +2034,7 @@
 		#Range: 0 ~ 64
 		overworld_size = 2
 		#Activate/Deactivate the Ore Gen in The Overworld [Default: true]
-		generate_in_the_overworld = true
+		generate_in_the_overworld = false
 
 	["Dimensional Shard Config"."The End"]
 		#Baseline Y-Level [Default: 30]
@@ -2105,7 +2105,7 @@
 		#Range: 0 ~ 64
 		overworld_size = 12
 		#Activate/Deactivate the Ore Gen in The Overworld [Default: true]
-		generate_in_the_overworld = true
+		generate_in_the_overworld = false
 
 	["Ruby Config"."The End"]
 		#Baseline Y-Level [Default: 40]
@@ -2176,7 +2176,7 @@
 		#Range: 0 ~ 64
 		overworld_size = 12
 		#Activate/Deactivate the Ore Gen in The Overworld [Default: true]
-		generate_in_the_overworld = true
+		generate_in_the_overworld = false
 
 	["Sapphire Config"."The End"]
 		#Baseline Y-Level [Default: 40]
@@ -2247,7 +2247,7 @@
 		#Range: 0 ~ 64
 		overworld_size = 12
 		#Activate/Deactivate the Ore Gen in The Overworld [Default: true]
-		generate_in_the_overworld = true
+		generate_in_the_overworld = false
 
 	["Peridot Config"."The End"]
 		#Baseline Y-Level [Default: 40]

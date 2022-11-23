@@ -178,7 +178,7 @@
 
 [Beekeepers]
 	#Chance of a custom building to spawn. For reference, a vanilla library is 5.
-	"Beekeeper house weight" = 5
+	"Beekeeper house weight" = 0
 	#This module is automatically disabled if Buzzier Bees is present. Set true to force enable.
 	Override = false
 
@@ -294,7 +294,7 @@
 
 [Lumberjacks]
 	#Chance of a custom building to spawn. For reference, a vanilla library is 5.
-	"Lumberjack house weight" = 5
+	"Lumberjack house weight" = 0
 
 [MapTooltips]
 	#This module is automatically disabled if Quark is present. Set true to force enable.

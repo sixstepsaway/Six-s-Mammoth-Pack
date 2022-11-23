@@ -1,9 +1,0 @@
-hopper_extracting = false
-despawn_immediately_when_empty = false
-despawn_corps_after_ticks = 4800
-surfacing_in_water = true
-drop_after_ticks = 2400
-#Example: minecraft:zombie or adventurez.brown_fungus
-excluded_entities = []
-drop_unlooted = true
-

@@ -31,7 +31,7 @@
 		#Whether creepers should ignore vampires
 		creeperIgnoreVampire = true
 		#Whether special crossbow arrows (e.g. spitfire) can be used with infinity enchantment
-		allowInfiniteSpecialArrows = false
+		allowInfiniteSpecialArrows = true
 		#Holy water damage is multiplied with this value for each tier above normal
 		#Range: 1.0 ~ 10.0
 		holyWaterTierDamageInc = 2.0

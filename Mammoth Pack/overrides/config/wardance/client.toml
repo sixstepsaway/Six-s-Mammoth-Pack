@@ -11,7 +11,7 @@
 	"enable might" = true
 	#the point from which offsets will calculate
 	#Allowed Values: TOPLEFT, TOPCENTER, TOPRIGHT, MIDDLELEFT, CROSSHAIR, MIDDLERIGHT, BOTTOMLEFT, BOTTOMCENTER, BOTTOMRIGHT
-	"might anchor point" = "BOTTOMLEFT"
+	"might anchor point" = "TOPRIGHT"
 	#where the center of the HUD element should be in relation to the anchor point
 	#Range: > -2147483647
 	"might x offset" = 64
@@ -63,7 +63,7 @@
 	"enable combo" = true
 	#the point from which offsets will calculate
 	#Allowed Values: TOPLEFT, TOPCENTER, TOPRIGHT, MIDDLELEFT, CROSSHAIR, MIDDLERIGHT, BOTTOMLEFT, BOTTOMCENTER, BOTTOMRIGHT
-	"combo anchor point" = "MIDDLERIGHT"
+	"combo anchor point" = "TOPCENTER"
 	#where the center of the HUD element should be in relation to the anchor point
 	#Range: > -2147483647
 	"combo x offset" = -40

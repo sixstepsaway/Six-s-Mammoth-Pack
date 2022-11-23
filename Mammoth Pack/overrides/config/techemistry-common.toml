@@ -2,17 +2,17 @@
 #Ores
 [worldgen]
 	#Generate Phosphate Ore
-	generatePhosphate = true
+	generatePhosphate = false
 	#Generate Sulfide Ore
-	generateSulfide = true
+	generateSulfide = false
 	#Generate Dolomite
-	generateDolomite = true
+	generateDolomite = false
 	#Generate Oxide Ore
-	generateOxide = true
+	generateOxide = false
 	#Generate Carbonate Ore
-	generateCarbonate = true
+	generateCarbonate = false
 	#Generate Sulfate Ore
-	generateSulfate = true
+	generateSulfate = false
 	#Generate Sulfur Ore
-	generateSulfur = true
+	generateSulfur = false
 

@@ -18,28 +18,28 @@
 	#Range: 0 ~ 2
 	mountingTweaks = 1
 	#If enabled, horses will not wander off if they are wearing a saddle.
-	enableGroundTie = false
+	enableGroundTie = true
 	#If enabled, horses can be different sizes.
 	enableSizes = true
 	#Whether to use the gray themed gender icons from Genetic Animals (by mokiyoki,
 	#used by permission) in place of the default pink and blue icons.
-	useGeneticAnimalsIcons = false
+	useGeneticAnimalsIcons = true
 	#If enabled, horses will be spooked by monsters and throw their rider.
-	spookyHorses = false
+	spookyHorses = true
 
 #Config settings related to growth and aging
 [growth]
 	#How long a year lasts in twenty minute Minecraft days, for age-dependent colors such as gray.
 	#Range: 8.333333333333333E-5 ~ 10000.0
-	yearLength = 4.0
+	yearLength = 192.0
 	#If enabled, foals will slowly get bigger as they grow into adults.
-	foalsGrowGradually = false
+	foalsGrowGradually = true
 	#If enabled, gray horses will be born colored and their fur will gradually turn white.
 	#Otherwise, all gray horses will render as if they were about 6-8 years old.
 	grayGradually = true
 	#The number of twenty minute Minecraft days that it takes for a foal to become an adult.
 	#Range: 8.333333333333333E-5 ~ 10000.0
-	growTime = 1.0
+	growTime = 576.0
 
 #Config settings related to breeding and gender
 [breeding]
@@ -65,7 +65,7 @@
 	#Range: > 0
 	genderlessBreedingCooldown = 6000
 	#Enables or disables all features relating to gender.
-	enableGenders = false
+	enableGenders = true
 
 #Settings to configure spawning
 [spawn]

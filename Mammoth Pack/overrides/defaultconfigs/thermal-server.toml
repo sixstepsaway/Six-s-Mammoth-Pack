@@ -72,7 +72,7 @@
 
 [Villagers]
 	#If TRUE, trades will be added to various Villagers.
-	"Enable Villager Trades" = true
+	"Enable Villager Trades" = false
 	#If TRUE, trades will be added to the Wandering Trader.
 	"Enable Wandering Trader Trades" = true
 

@@ -229,7 +229,7 @@
 	lostXp = 1.0
 	#Sets whether dropped XP is based on a percentage of the lost total or per lost level
 	#Allowed Values: PERCENT, PER_LEVEL
-	xpDropMode = "PER_LEVEL"
+	xpDropMode = "PERCENT"
 	#Percentage of lost experience that is dropped when PERCENT is active
 	#Range: 0.0 ~ 1.0
 	droppedXpPercent = 0.2
@@ -243,7 +243,7 @@
 [mementomori]
 	#Amount modifier for maximum health
 	#Range: -1024 ~ 1024
-	healthMod = 0
+	healthMod = -3
 	#Amount modifier for armor
 	#Range: -30 ~ 30
 	armorMod = 0
@@ -277,7 +277,7 @@
 [miscellaneous]
 	#The amount of health that players have on respawn, 0.0 to default to the maximum health
 	#Range: 0.0 ~ 1024.0
-	respawnHealth = 0.0
+	respawnHealth = 5.0
 	#Set to true to restrict respawning to the world spawn, players cannot set new spawn points
 	restrictRespawning = false
 	#List of items to give players on respawn

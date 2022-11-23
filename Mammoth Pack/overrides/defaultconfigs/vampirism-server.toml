@@ -4,7 +4,7 @@
 	#Prevent clients from disabling the vampire forest fog
 	enforceForestFog = true
 	#If vampires can convert to a bat in the End
-	batModeInEnd = false
+	batModeInEnd = true
 	#If PVP should only be allowed between factions. PVP has to be enabled in the server properties for this. Not guaranteed to always protect player from teammates
 	pvpOnlyBetweenFactions = false
 	#If pvpOnlyBetweenFactions is enabled, this decides whether human players can be attacked and attack others
@@ -26,7 +26,7 @@
 	#Allowed Values: ALWAYS_IMOB, NEVER_IMOB, SMART
 	entitiesIMob = "SMART"
 	#If enabled, creatures are infected with Sanguinare Vampirism first instead of immediately being converted to a vampire when their blood is sucked dry
-	infectCreaturesSanguinare = false
+	infectCreaturesSanguinare = true
 	#Prevent players from enabling the rendering of debug bounding boxes. This can allow them to see certain entities they are not supposed to see (e.g. disguised hunter
 	preventDebugBoundingBoxes = false
 

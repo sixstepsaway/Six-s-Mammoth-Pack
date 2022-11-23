@@ -5,6 +5,6 @@
 	tileEntityRenderRangeMax = 24.0
 	#Range: 1.0 ~ 30000.0
 	entityRenderRangeMax = 64.0
-	tileEntityRenderLimitModdedOnly = true
-	entityRenderLimitModdedOnly = true
+	tileEntityRenderLimitModdedOnly = false
+	entityRenderLimitModdedOnly = false
 

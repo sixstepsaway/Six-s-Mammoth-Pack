@@ -22,5 +22,5 @@ hideIncompatibilityMessage = false
 #If set to true, crafting tools must have sufficient durability remaining to perform the craft.
 #If set to false, this restriction is ignored.
 #Default: true
-restrictCraftMinimumDurability = true
+restrictCraftMinimumDurability = false
 

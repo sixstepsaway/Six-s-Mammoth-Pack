@@ -31,7 +31,7 @@
 			#Tropical fish in jungles
 			jungleTropicalFish = true
 			#Bats spawn outside at night
-			nightBats = false
+			nightBats = true
 
 	#World Gen Settings
 	[Settings."World Gen"]
@@ -60,38 +60,38 @@
 			twigs = true
 			# % chance of groundcover placement
 			#Range: 0 ~ 100
-			groundcoverChance = 100
+			groundcoverChance = 80
 			pinecones = true
 			fallenLeaves = true
 			charredBones = true
 
 	#Biome Settings
 	[Settings.Biomes]
-		alpine_heights = false
-		boreal_forest = false
-		windswept_cliffs = false
-		baobab_fields = false
-		desert_shrubland = false
+		alpine_heights = true
+		boreal_forest = true
+		windswept_cliffs = true
+		baobab_fields = true
+		desert_shrubland = true
 		flooded_woodlands = true
-		willow_wetlands = false
-		mangrove_marsh = false
+		willow_wetlands = true
+		mangrove_marsh = true
 		meadows = true
-		boreal_plateau = false
-		snowy_redwoods = false
-		red_rock_valley = false
-		snowy_boreal_forest = false
-		crimson_thicket = false
-		pine_meadows = false
-		aspen_grove = false
-		prairie = false
-		autumnal_coniferous_forest = false
+		boreal_plateau = true
+		snowy_redwoods = true
+		red_rock_valley = true
+		snowy_boreal_forest = true
+		crimson_thicket = true
+		pine_meadows = true
+		aspen_grove = true
+		prairie = true
+		autumnal_coniferous_forest = true
 		stony_fields = true
-		redwood_peaks = false
+		redwood_peaks = true
 		overgrown_spires = true
-		redwoods = false
-		blossoming_fields = false
+		redwoods = true
+		blossoming_fields = true
 		verdant_sands = true
-		crystal_lakes = false
+		crystal_lakes = true
 
 		#Biome Ambience Settings
 		[Settings.Biomes."Biome Ambience"]

@@ -2,19 +2,19 @@
 #Adaptive Performance Tweaks (General configuration)
 [Optimization]
 	#Enable/Disable optimization which are happening during player login.
-	optimizePlayerLogin = true
+	optimizePlayerLogin = false
 	#Enable/Disable view distance optimization depending on the server load.
-	optimizeViewDistance = true
+	optimizeViewDistance = false
 	#Enable/Disable general mobs optimization depending on the server load.
-	optimizeGeneralMobs = true
+	optimizeGeneralMobs = false
 	#Enable/Disable passive mobs optimization depending on the server load.
-	optimizePassiveMobs = true
+	optimizePassiveMobs = false
 	#Enable/Disable neutral mobs optimization depending on the server load.
-	optimizeNeutralMobs = true
+	optimizeNeutralMobs = false
 	#Enable/Disable hostile mobs optimization depending on the server load.
-	optimizeHostileMobs = true
+	optimizeHostileMobs = false
 	#Enable/Disable boss mobs optimization depending on the server load.
-	optimizeBossMobs = true
+	optimizeBossMobs = false
 
 [Items]
 	#Enable/Disable items optimization.
@@ -62,11 +62,11 @@
 
 [Gamerule]
 	#Enable/Disable dynamic gamerule adjustments.
-	gameruleEnabled = true
+	gameruleEnabled = false
 
 	[Gamerule."Entity Cramming"]
 		#Enable/Disable dynamic entity cramming adjustments.
-		entityCrammingEnabled = true
+		entityCrammingEnabled = false
 		#Defines the min. numbers of mob singularity on a single block.
 		#Range: 0 ~ 64
 		minEntityCramming = 5
@@ -76,14 +76,14 @@
 
 	[Gamerule."Random Tick Speed"]
 		#Enable/Disable dynamic random tick speed adjustments.
-		randomTickSpeedEnabled = true
+		randomTickSpeedEnabled = false
 		#Defines the max. speed of crops grow, leaf decay, redstone, ... per chunk
 		#Range: 1 ~ 256
 		randomTickSpeed = 3
 
 [Spawner]
 	#Enable/Disable spawner optimizations.
-	spawnerEnabled = true
+	spawnerEnabled = false
 	#Defines the max. number of entities per world for spawners.
 	#Range: 1 ~ 4096
 	spawnerMaxEntityPerWorld = 1000
@@ -103,7 +103,7 @@
 
 	[Spawn.Limitations]
 		#Enable/Disable general spawn limitations for unknown mobs.
-		spawnLimitationEnabled = true
+		spawnLimitationEnabled = false
 		#Blocks every x spawn of unknown mobs to avoid an over population with the limited spawn area. Use 0 to disable this optimization.
 		#Range: 0 ~ 100
 		spawnLimitationLimiter = 10
@@ -115,7 +115,7 @@
 		spawnLimitationMaxMobsPerWorld = 64
 
 	[Spawn.Minecraft]
-		minecraftEnabled = true
+		minecraftEnabled = false
 		#e.g. mostly bats
 		#Range: 1 ~ 64
 		minecraftMaxPassiveMobsPerPlayer = 2
@@ -158,7 +158,7 @@
 [Mod]
 
 	[Mod."Alex's Mobs"]
-		modAlexmobsEnabled = true
+		modAlexmobsEnabled = false
 		#Range: 1 ~ 64
 		modAlexmobsMaxPassiveMobsPerPlayer = 2
 		#Range: 1 ~ 512
@@ -173,22 +173,22 @@
 		modAlexmobsMaxHostileMobsPerWorld = 10
 
 	[Mod."Aquaculture 2"]
-		modAquacultureEnabled = true
+		modAquacultureEnabled = false
 		#Range: 1 ~ 64
 		modAquacultureMaxFishPerPlayer = 2
 		#Range: 1 ~ 512
 		modAquacultureMaxFishPerWorld = 8
 
 	[Mod."Artifacts Mod"]
-		modArtifactsEnabled = true
+		modArtifactsEnabled = false
 		#Range: 1 ~ 64
 		modArtifactsMaxHostileMobsPerPlayer = 2
 		#Range: 1 ~ 512
 		modArtifactsMaxHostileMobsPerWorld = 12
 
 	[Mod."Dungeons Mod"]
-		modDungeonsmodEnabled = true
-		modDungeonsmodOptimizeWhirlwind = true
+		modDungeonsmodEnabled = false
+		modDungeonsmodOptimizeWhirlwind = false
 		#Range: 1 ~ 64
 		modDungeonsmodMaxHostileMobsPerPlayer = 4
 		#Range: 1 ~ 512
@@ -199,7 +199,7 @@
 		modDungeonsmodMaxBossesPerWorld = 4
 
 	[Mod."Ice and Fire: Dragons"]
-		modIceandfireEnabled = true
+		modIceandfireEnabled = false
 		#Range: 1 ~ 64
 		modIceandfireMaxPassiveMobsPerPlayer = 2
 		#Range: 1 ~ 512
@@ -218,14 +218,14 @@
 		modIceandfireMaxBossesPerWorld = 8
 
 	[Mod."Mekanism Additions"]
-		modMekanismadditionsEnabled = true
+		modMekanismadditionsEnabled = false
 		#Range: 1 ~ 64
 		modMekanismadditionsMaxHostileMobsPerPlayer = 2
 		#Range: 1 ~ 512
 		modMekanismadditionsMaxHostileMobsPerWorld = 16
 
 	[Mod."Mowzie's Mobs"]
-		modMowziesMobsEnabled = true
+		modMowziesMobsEnabled = false
 		#Range: 1 ~ 64
 		modMowziesMobsMaxNeutralMobsPerPlayer = 2
 		#Range: 1 ~ 512
@@ -240,14 +240,14 @@
 		modMowziesMobsMaxBossesPerWorld = 8
 
 	[Mod."Mutant Beasts"]
-		modMutantBeastsEnabled = true
+		modMutantBeastsEnabled = false
 		#Range: 1 ~ 64
 		modMutantBeastsMaxHostileMobsPerPlayer = 1
 		#Range: 1 ~ 512
 		modMutantBeastsMaxHostileMobsPerWorld = 8
 
 	[Mod.Quark]
-		modQuarkEnabled = true
+		modQuarkEnabled = false
 		#Range: 1 ~ 64
 		modQuarkMaxPassiveMobsPerPlayer = 2
 		#Range: 1 ~ 512
@@ -262,7 +262,7 @@
 		modQuarkMaxHostileMobsPerWorld = 16
 
 	[Mod.Rats]
-		modRatsEnabled = true
+		modRatsEnabled = false
 		#Range: 1 ~ 64
 		modRatsMaxPassiveMobsPerPlayer = 4
 		#Range: 1 ~ 512
@@ -277,28 +277,28 @@
 		modRatsMaxBossesPerWorld = 8
 
 	[Mod."Savage & Ravage"]
-		modSavageandravageEnabled = true
+		modSavageandravageEnabled = false
 		#Range: 1 ~ 64
 		modSavageandravageMaxHostileMobsPerPlayer = 4
 		#Range: 1 ~ 512
 		modSavageandravageMaxHostileMobsPerWorld = 10
 
 	[Mod.Statues]
-		" modStatuesEnabled" = true
+		" modStatuesEnabled" = false
 		#Range: 1 ~ 64
 		modStatuesMaxPassiveMobsPerPlayer = 2
 		#Range: 1 ~ 512
 		modStatuesMaxPassiveMobsPerWorld = 16
 
 	[Mod.Supplementaries]
-		" modSupplementariesEnabled" = true
+		" modSupplementariesEnabled" = false
 		#Range: 1 ~ 64
 		modSupplementariesMaxPassiveMobsPerPlayer = 2
 		#Range: 1 ~ 512
 		modSupplementariesMaxPassiveMobsPerWorld = 16
 
 	[Mod."The Abyss: Chapter II"]
-		modTheabyssEnabled = true
+		modTheabyssEnabled = false
 		#Range: 1 ~ 64
 		modTheabyssMaxPassiveMobsPerPlayer = 2
 		#Range: 1 ~ 512
@@ -309,7 +309,7 @@
 		modTheabyssMaxHostileMobsPerWorld = 16
 
 	[Mod."The Farlanders"]
-		modTheFarlandersEnabled = true
+		modTheFarlandersEnabled = false
 		#Range: 1 ~ 64
 		modTheFarlandersMaxPassiveMobsPerPlayer = 4
 		#Range: 1 ~ 512
@@ -328,14 +328,14 @@
 		modTheFarlandersMaxBossesPerWorld = 4
 
 	[Mod."Tinkers Construct"]
-		modTinkersconstructEnabled = true
+		modTinkersconstructEnabled = false
 		#Range: 1 ~ 64
 		modTinkersconstructMaxHostileMobsPerPlayer = 4
 		#Range: 1 ~ 512
 		modTinkersconstructMaxHostileMobsPerWorld = 16
 
 	[Mod."The Twilight Forest"]
-		modTwilightForestEnabled = true
+		modTwilightForestEnabled = false
 		#Range: 1 ~ 64
 		modTwilightForestMaxPassiveMobsPerPlayer = 2
 		#Range: 1 ~ 512
@@ -350,7 +350,7 @@
 		modTwilightForestMaxBossesPerWorld = 8
 
 	[Mod.Twist]
-		modTwistEnabled = true
+		modTwistEnabled = false
 		#Range: 1 ~ 64
 		modTwistMaxPassiveMobsPerPlayer = 2
 		#Range: 1 ~ 512
@@ -380,7 +380,7 @@
 		modUntamedWildsMaxHostileMobsPerWorld = 16
 
 	[Mod.Whisperwoods]
-		modWhisperwoodsEnabled = true
+		modWhisperwoodsEnabled = false
 		#Range: 1 ~ 64
 		modWhisperwoodsMaxPassiveMobsPerPlayer = 2
 		#Range: 1 ~ 512

@@ -51,7 +51,7 @@ version = 1
 	#Set to true to make shared buffs visible to recipients in their HUD. Note that whether the effect is actually visible may depend on the other mods present.
 	shared_effects_shown = false
 	#Set to true to add a few more difficulty tweaks to some survival mod mechanics (eg make thirst matter). Ignored if auto-integration with survival mods disabled. Affects all library-dependent mods.
-	more_survival_tweaks = false
+	more_survival_tweaks = true
 	#Set to 'false' to remove or disable automatic application of nourishment related 'xxx Fed' buffs from consuming food or drink. Note that the underlying effects are still defined and available for use in data packs even if this option is set 'false'; the option only affects how the library and dependent mods like Vanilla Food Pantry and Super Buckets use those effects. Does not impact custom effects like Muscle Boost.
 	fighting_foods = "*DEFAULT*"
 

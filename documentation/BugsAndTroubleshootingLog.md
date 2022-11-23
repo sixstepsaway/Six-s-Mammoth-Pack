@@ -72,3 +72,7 @@ Eventually I think I'll make a folder for clientside mods, to make setting up a 
 The nice thing is that when I push an update, I can take out the dev tools if I want, or remove the mods in the "ignore" folder all-together. I don't have to rename them jar.disabled, I can just move things into folders.
 
 Truly, a dream come true.
+
+## Exporting for Git and Curse
+
+I hit on a problem where Curseforge will not export my pack properly. I ended up trying Pax and Packwiz, but both required Curseforge exports to function - lol! In the end I found [CFE Exporter](https://github.com/Gaz492/CFExporter) - and it saved my bacon completely. 

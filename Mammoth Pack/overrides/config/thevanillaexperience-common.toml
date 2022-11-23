@@ -19,7 +19,7 @@
 	#If Inventory Totem should be enabled. Makes the totem of undying effect work when existing in the player's inventory.
 	enableInventoryTotem = false
 	#If Fall Through Slime should be enabled. Slime blocks no longer support your weight when standing still, and you'll slowly fall through.
-	enableFallThroughSlime = false
+	enableFallThroughSlime = true
 	#If Easy Elytra Takeoff should be enabled. Allows easy taking off by elytra with a firework from the ground without that awkward jump.
 	enableEasyElytraTakeoff = false
 	#If Extract Poison should be enabled. Allows the extraction of poison from cave spiders, pufferfish and bees with an empty bottle.
@@ -41,7 +41,7 @@
 	#If Mooshroom Tweaks should be enabled. A minimalistic mod that tweaks the spawning behaviour of mooshrooms, allowing both red and brown to spawn naturally.
 	enableMooshroomTweaks = false
 	#If Snowballs Freeze Mobs should be enabled. Hitting mobs with a snowball will result in them being frozen for a configurable amount of time.
-	enableSnowballsFreezeMobs = true
+	enableSnowballsFreezeMobs = false
 	#If Breedable Killer Rabbit should be enabled. A minimalistic configurable mod which makes the killer rabbit tamable and available by breeding.
 	enableBreedableKillerRabbit = false
 	#If Infinite Trading should be enabled. Prevents villager trades from locking up, making them be always available.
@@ -99,7 +99,7 @@
 	#If Zombie Villagers From Spawner should be enabled. Puts back the ability for zombie spawners to spawn the villager variant, removed in 1.11.
 	enableZombieVillagersFromSpawner = false
 	#If Despawning Eggs Hatch should be enabled. Allows chicken eggs on a hay block to hatch into a chick baby just before they despawn.
-	enableDespawningEggsHatch = false
+	enableDespawningEggsHatch = true
 	#If GUI Followers should be enabled. [Client] Shows a list in the GUI/HUD with all tamed non-sitting followers around the player.
 	enableGUIFollowers = true
 	#If Transcending Trident should be enabled. Improves the vanilla trident. Hold a water bucket to use riptide, which is more powerful.
@@ -165,7 +165,7 @@
 	#If Passive Shield should be enabled. The shield is hidden in the offhand until right-clicked, and shields passively negate damage when held but not in use.
 	enablePassiveShield = true
 	#If Fire Spread Tweaks should be enabled. Disables the default firespread, but does make fire go out on its own after a configurable delay.
-	enableFireSpreadTweaks = false
+	enableFireSpreadTweaks = true
 	#If Skeleton Horse Spawn should be enabled. Allows the skeleton horse to spawn naturally with a skeleton riding it and other tweaks.
 	enableSkeletonHorseSpawn = true
 	#If Rain Be Gone Ritual should be enabled. Adds the ability to stop the rain with a multi-block structure ritual.

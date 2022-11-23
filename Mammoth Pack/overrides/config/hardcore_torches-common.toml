@@ -2,9 +2,9 @@
 #General Settings
 [general]
 	#If true, torches and lanterns will continue to lose fuel even while in the players inventory.
-	tickInInventory = false
+	tickInInventory = true
 	#If true, certain animals will drop fat as an item, which can be used in lanterns.
-	animalsDropFat = true
+	animalsDropFat = false
 
 #Oil Can Settings
 [oil_can]
@@ -28,14 +28,14 @@
 #Torch Settings
 [torch]
 	#Overrides torchesExtinguishWhenBroken. Torches will be fully expended when broken (burnt torch or stick).
-	torchesBurnWhenDropped = true
+	torchesBurnWhenDropped = false
 	#Fully expended torches will drop as sticks rather than burnt torches.
 	burntStick = true
 	#How long a torch lasts when crafted. There are 20 ticks per second so 48000 ticks = 20 minutes.
 	#Range: > 1
 	defaultTorchFuel = 48000
 	#Right click a torch without holding fuel or a lighter to unlight it.
-	handUnlightTorch = false
+	handUnlightTorch = true
 	#Torches will be affected when in the rain. Will smolder or become unlit depending on torchesSmolder.
 	torchesRain = true
 	#If a torch is in the rain and torchesRain = true, then it will smolder and burn fuel at 1/3rd the normal rate instead of becoming unlit.
@@ -43,7 +43,7 @@
 	#Torches will become unlit when broken.
 	torchesExtinguishWhenBroken = true
 	#If true, torches must be lit after crafting.
-	craftUnlit = false
+	craftUnlit = true
 
 #Lantern Settings
 [lantern]
@@ -54,7 +54,7 @@
 	#Range: > 1
 	minLanternIgnitionFuel = 1
 	#Right click a lantern without holding fuel or a lighter to unlight it.
-	handUnlightLantern = false
+	handUnlightLantern = true
 	#The amount a fuel item adds to the lantern by default
 	#Range: > 1
 	defLanternFuelItem = 72000

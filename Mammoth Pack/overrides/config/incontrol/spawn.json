@@ -1,74 +1,201 @@
-[
-  {
-    "dimension": "minecraft:overworld",
-    "mob": "alexsmobs:crow",	
-    "mincount": {
-      "amount": 5,
-      "mob": "alexsmobs:crow"
+[{
+        "dimension": "minecraft:overworld",
+        "phase": "first_day",
+        "hostile": true,
+        "onjoin": true,
+        "result": "deny"
     },
-	  "onjoin": true,
-    "result": "deny"
-  },
-  {
-    "dimension": "minecraft:overworld",
-    "mob": "alexsmobs:raccoon",	
-    "mincount": {
-      "amount": 5,
-      "mob": "alexsmobs:raccoon"
+    {
+        "dimension": "minecraft:overworld",
+        "mob": "wyrmroost:lesser_desertwyrm",
+        "mincount": {
+            "amount": 2,
+            "mob": "wyrmroost:lesser_desertwyrm",
+            "perchunk": true
+        },
+        "onjoin": true,
+        "result": "deny"
     },
-	  "onjoin": true,
-    "result": "deny"
-  },
-  {
-    "dimension": "minecraft:overworld",
-    "mob": "alexsmobs:seal",	
-    "mincount": {
-      "amount": 5,
-      "mob": "alexsmobs:seal"
+    {
+        "dimension": "minecraft:overworld",
+        "mod": "blocklings",
+        "mincount": {
+            "amount": 1,
+            "mod": "blocklings",
+            "perchunk": true
+        },
+        "result": "deny"
     },
-	  "onjoin": true,
-    "result": "deny"
-  },
-  {
-    "dimension": "minecraft:overworld",
-    "mob": "alexsmobs:roadrunner",	
-    "mincount": {
-      "amount": 5,
-      "mob": "alexsmobs:roadrunner"
+    {
+        "dimension": "minecraft:overworld",
+        "mob": "alexsmobs:crow",
+        "mincount": {
+            "amount": 5,
+            "mob": "alexsmobs:crow"
+        },
+        "onjoin": true,
+        "result": "deny"
     },
-	  "onjoin": true,
-    "result": "deny"
-  },
-  {
-    "dimension": "minecraft:overworld",
-    "mob": "alexsmobs:gorilla",	
-    "mincount": {
-      "amount": 5,
-      "mob": "alexsmobs:gorilla"
+    {
+        "dimension": "minecraft:overworld",
+        "mob": "alexsmobs:raccoon",
+        "mincount": {
+            "amount": 5,
+            "mob": "alexsmobs:raccoon"
+        },
+        "onjoin": true,
+        "result": "deny"
     },
-	  "onjoin": true,
-    "result": "deny"
-  },
-  {
-    "dimension": "minecraft:overworld",
-    "mob": "prehistoricfauna:henos",	
-	  "onjoin": true,
-    "result": "deny"
-  },
-  {
-    "dimension": "minecraft:overworld",
-    "mob": "artifacts:mimic",	
-    "mincount": {
-      "amount": 2,
-      "mob": "artifacts:mimic"
+    {
+        "dimension": "minecraft:overworld",
+        "mob": "alexsmobs:leafcutter_ant",
+        "mincount": {
+            "amount": 5,
+            "mob": "alexsmobs:leafcutter_ant",
+            "perchunk": true
+        },
+        "onjoin": true,
+        "result": "deny"
     },
-	  "onjoin": true,
-    "result": "deny"
-  },
-  {
-    "dimension": "minecraft:overworld",
-    "mod": "mekanismadditions",	
-	  "onjoin": true,
-    "result": "deny"
-  }
+    {
+        "dimension": "minecraft:overworld",
+        "mob": "whisperwoods:moth",
+        "mincount": {
+            "amount": 5,
+            "mob": "whisperwoods:moth"
+        },
+        "onjoin": true,
+        "result": "deny"
+    },
+    {
+        "dimension": "minecraft:overworld",
+        "mob": "iceandfire:multipart",
+        "mincount": {
+            "amount": 5,
+            "mob": "iceandfire:multipart",
+            "perchunk": true
+        },
+        "onjoin": true,
+        "result": "deny"
+    },
+    {
+        "dimension": "minecraft:overworld",
+        "mob": "iceandfire:amphithere",
+        "mincount": {
+            "amount": 2,
+            "mob": "iceandfire:amphithere",
+            "perchunk": true
+        },
+        "onjoin": true,
+        "result": "deny"
+    },
+    {
+        "dimension": "minecraft:overworld",
+        "mob": "mod_lavacow:piranha",
+        "mincount": {
+            "amount": 2,
+            "mob": "mod_lavacow:piranha",
+            "perchunk": true
+        },
+        "onjoin": true,
+        "result": "deny"
+    },
+    {
+        "dimension": "minecraft:overworld",
+        "mob": "mowziesmobs:foliaath",
+        "mincount": {
+            "amount": 2,
+            "mob": "mowziesmobs:foliaath",
+            "perchunk": true
+        },
+        "onjoin": true,
+        "result": "deny"
+    },
+    {
+        "dimension": "minecraft:overworld",
+        "mob": "eyesinthedarkness:eyes",
+        "mincount": {
+            "amount": 1,
+            "mob": "eyesinthedarkness:eyes"
+        },
+        "onjoin": true,
+        "result": "deny"
+    },
+    {
+        "dimension": "minecraft:overworld",
+        "mob": "eidolon:zombie_brute",
+        "mincount": {
+            "amount": 5,
+            "mob": "eidolon:zombie_brute"
+        },
+        "result": "deny"
+    },
+    {
+        "dimension": "minecraft:overworld",
+        "mob": "projectvibrantjourneys:night_bat",
+        "mincount": {
+            "amount": 2,
+            "mob": "projectvibrantjourneys:night_bat"
+        },
+        "onjoin": true,
+        "result": "deny"
+    },
+    {
+        "dimension": "minecraft:overworld",
+        "mob": "alexsmobs:fly",
+        "onjoin": true,
+        "result": "deny"
+    },
+    {
+        "dimension": "minecraft:overworld",
+        "mob": "alexsmobs:seal",
+        "mincount": {
+            "amount": 5,
+            "mob": "alexsmobs:seal"
+        },
+        "onjoin": true,
+        "result": "deny"
+    },
+    {
+        "dimension": "minecraft:overworld",
+        "mob": "alexsmobs:roadrunner",
+        "mincount": {
+            "amount": 5,
+            "mob": "alexsmobs:roadrunner"
+        },
+        "onjoin": true,
+        "result": "deny"
+    },
+    {
+        "dimension": "minecraft:overworld",
+        "mob": "alexsmobs:gorilla",
+        "mincount": {
+            "amount": 5,
+            "mob": "alexsmobs:gorilla"
+        },
+        "onjoin": true,
+        "result": "deny"
+    },
+    {
+        "dimension": "minecraft:overworld",
+        "mob": "prehistoricfauna:henos",
+        "onjoin": true,
+        "result": "deny"
+    },
+    {
+        "dimension": "minecraft:overworld",
+        "mob": "artifacts:mimic",
+        "mincount": {
+            "amount": 2,
+            "mob": "artifacts:mimic"
+        },
+        "onjoin": true,
+        "result": "deny"
+    },
+    {
+        "dimension": "minecraft:overworld",
+        "mod": "mekanismadditions",
+        "onjoin": true,
+        "result": "deny"
+    }
 ]

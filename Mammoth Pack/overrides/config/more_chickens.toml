@@ -54,7 +54,7 @@ preferredTagSource = ["minecraft", "chickens", "thermal", "tconstruct", "immersi
 [World]
 	#Chicken spawning weight (higher = more common)
 	#Range: 0 ~ 100
-	SpawnWeight = 10
+	SpawnWeight = 0
 	#Minimum number of Chickens to spawn at once
 	#Range: 0 ~ 20
 	SpawnMin = 2

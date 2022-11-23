@@ -3,10 +3,10 @@
 [General]
 	#The percentage chance that a Wither will drop a Withering Soul when killed.
 	#Range: 0.0 ~ 1.0
-	witheringSoulChance = 0.35
+	witheringSoulChance = 0.0
 	#The amount of Dragon Scales that an Ender Dragon will drop when killed.
 	#Range: 0 ~ 64
-	dragonScalesAmount = 8
+	dragonScalesAmount = 0
 	#Can tier 6 crops be fertilized using Mystical Fertilizer or Fertilized Essence?
 	fertilizableTier6Crops = false
 	#The duration of each Essence Apples effects in seconds.
@@ -16,7 +16,7 @@
 #World generation options.
 [World]
 	#Should Nether Prosperity Ore generate in the world?
-	generateNetherProsperityOre = true
+	generateNetherProsperityOre = false
 	#How many Nether Prosperity Ore veins should spawn in a chunk.
 	#Range: > 0
 	netherProsperitySpawnRate = 12
@@ -27,7 +27,7 @@
 	#Range: 0 ~ 128
 	netherProsperitySpawnHeight = 100
 	#Should Nether Inferium Ore generate in the world?
-	generateNetherInferiumOre = true
+	generateNetherInferiumOre = false
 	#How many Nether Inferium Ore veins should spawn in a chunk.
 	#Range: > 0
 	netherInferiumSpawnRate = 16
@@ -38,7 +38,7 @@
 	#Range: 0 ~ 128
 	netherInferiumSpawnHeight = 100
 	#Should End Prosperity Ore generate in the world?
-	generateEndProsperityOre = true
+	generateEndProsperityOre = false
 	#How many End Prosperity Ore veins should spawn in a chunk.
 	#Range: > 0
 	endProsperitySpawnRate = 12
@@ -49,7 +49,7 @@
 	#Range: 0 ~ 128
 	endProsperitySpawnHeight = 100
 	#Should End Inferium Ore generate in the world?
-	generateEndInferiumOre = true
+	generateEndInferiumOre = false
 	#How many End Inferium Ore veins should spawn in a chunk.
 	#Range: > 0
 	endInferiumSpawnRate = 16

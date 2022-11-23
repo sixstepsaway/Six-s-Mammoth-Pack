@@ -70,7 +70,7 @@
 	enableProjectWarDanceCompat = true
 	#Enable Elenai Dodge 2 compatibility. Effects that trigger on jump will now trigger on dodge. 
 	#Does nothing if Elenai Dodge is not installed. [true / false]
-	enableElenaiDodgeCompat = true
+	enableElenaiDodgeCompat = false
 
 #Rare Loot Table Configuration
 [rare_loot_table_configuration]
@@ -127,7 +127,7 @@
 [general_mod_configuration]
 	#Enable melee weapons appearing in chest loot and trades. 
 	#If you want to disable obtaining this mod's melee weapons, disable this feature. [true / false]
-	enableMeleeWeaponLoot = true
+	enableMeleeWeaponLoot = false
 	#Enable melee weapons appearing in their own tab in the creative menu. 
 	#Disabling this feature puts them in the COMBAT tab. [true / false]
 	enableMeleeWeaponTab = true
@@ -158,19 +158,19 @@
 	uniqueItemValue = 24
 	#Enable enchantments from this mod appearing in any type of generated loot. 
 	#Disable this feature if you want to prevent this. [true / false]
-	enableEnchantmentLoot = true
+	enableEnchantmentLoot = false
 	#Enable Friendly Fire on Pets 
 	#If you dislike (or outright hate) your pets and would like to kill them, enable this feature. [true / false]
 	enableFriendlyPetFire = false
 	#Enable ranged weapons appearing in chest loot and trades. 
 	#If you want to disable obtaining this mod's ranged weapons, disable this feature. [true / false]
-	enableRangedWeaponLoot = true
+	enableRangedWeaponLoot = false
 	#Enable armors appearing in their own tab in the creative menu. 
 	#Disabling this feature puts them in the COMBAT tab. [true / false]
 	enableArmorTab = true
 	#Enable Weaponsmith, Fletcher, Armorer and Leatherworker Villagers trading Dungeons Gear items. 
 	#If you have other mods messing with the trades of those professions or simply don't want it, disable this feature. [true / false]
-	enableVillagerTrades = true
+	enableVillagerTrades = false
 	#Enable artifacts appearing in chest loot and trades. 
 	#If you want to disable obtaining this mod's artifacts, disable this feature. [true / false]
 	enableArtifactLoot = true
@@ -179,7 +179,7 @@
 	enableOverpoweredEnchantmentCombos = false
 	#Enable the mass addition of Dungeons Gear items to various vanilla loot tables by the mod itself. 
 	#If you prefer to write your own loot pools via datapack or simply don't want it, disable this feature. [true / false]
-	enableDungeonsGearLoot = true
+	enableDungeonsGearLoot = false
 	#Add enchantments that should be prevented from being applied to any gear. 
 	#To do so, enter their registry names.
 	enchantmentBlacklist = ["dungeons_gear:lucky_explorer"]

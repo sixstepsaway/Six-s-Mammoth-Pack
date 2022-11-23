@@ -18,11 +18,11 @@
 	#Range: 1 ~ 10
 	initialcitizenamount = 4
 	#Should construction tape be placed around in-construction builds? [Default: true]
-	builderplaceconstructiontape = true
+	builderplaceconstructiontape = false
 	#Should players be able to place an infinite amount of supply camps/ships? [Default: false]
 	allowinfinitesupplychests = false
 	#Should players be allowed to abandon their colony to create a new one easily? Note: This is buggy! [Default: false]
-	allowinfinitecolonies = false
+	allowinfinitecolonies = true
 	#Should colonies in other dimensions be allowed? [Default: true]
 	allowotherdimcolonies = true
 	#If a colony is under the initial citizen count, this changes the amount of time before a new citizen spawns. [Default: 60, min: 10, max: 600]
@@ -30,7 +30,7 @@
 	citizenrespawninterval = 60
 	#Max citizens in one colony. [Default: 250, min: 4, max: 500]
 	#Range: 4 ~ 500
-	maxcitizenpercolony = 250
+	maxcitizenpercolony = 500
 	#Delay after each block placement (increasing it increases the delay). [Default: 15, min: 1, max: 500]
 	#Range: 1 ~ 500
 	builderbuildblockdelay = 15
@@ -40,7 +40,7 @@
 	#Should development features be enabled (might be buggy)? [Default: false]
 	enableindevelopmentfeatures = false
 	#Should citizen name tags be rendered? [Default: true]
-	alwaysrendernametag = true
+	alwaysrendernametag = false
 	#Should workers work during the rain? [Default: false]
 	workersalwaysworkinrain = false
 	#Should players be sent entering/leaving colony notifications? [Default: true]
@@ -68,15 +68,15 @@
 	suggestbuildtoolplacement = true
 	#Food consumption modifier. [Default: 1.000000, min: 0.100000, max: 100.000000]
 	#Range: 0.1 ~ 100.0
-	foodmodifier = 1.0
+	foodmodifier = 5.0
 	#How common diseases are. 1 = Very common, 100 = extremely rare. [Default: 5, min: 1, max: 100]
 	#Range: 1 ~ 100
 	diseasemodifier = 5
 	#If part of the colony is loaded by an owner/officer, should the colony be kept loaded? (Set how many chunks are loaded with the "Colony Chunk Loading Strictness" option.) [Default: false]
-	forceloadcolony = false
+	forceloadcolony = true
 	#This controls how many chunks are loaded with the "Chunk Load Colony" option. The higher this value, the fewer chunks will be loaded. (The innermost chunks will be loaded first.) 1 = load all claimed chunks. [Default: 3, min: 1, max: 15]
 	#Range: 1 ~ 15
-	colonyloadstrictness = 3
+	colonyloadstrictness = 1
 	#Chance to get an evil Tavern visitor that will run off with the resources you give them. This is a %. [Default: 2, min: 1, max: 100]
 	#Range: 1 ~ 100
 	badvisitorchance = 2
@@ -195,7 +195,7 @@
 	maxkeptbackups = 50
 	#Independent from the colony protection, should explosions be turned off inside colonies? DAMAGE_NOTHING prevents explosions completely. DAMAGE_PLAYERS, allows explosions to damage players and hostile mobs, but not blocks or neutral or friendly mobs. DAMAGE_ENTITIES allows damage to all entities. DAMAGE_EVERYTHING allows explosions to damage entities and blocks. 
 	#Allowed Values: DAMAGE_NOTHING, DAMAGE_PLAYERS, DAMAGE_ENTITIES, DAMAGE_EVERYTHING
-	turnoffexplosionsincolonies = "DAMAGE_ENTITIES"
+	turnoffexplosionsincolonies = "DAMAGE_EVERYTHING"
 	#Players who have special permissions, especially to change citizen names (see "Name Changes" above). 
 	specialpermgroup = ["_Raycoms_"]
 	#Blocks players should be able to interact with in any colony (ex: vending machines) 

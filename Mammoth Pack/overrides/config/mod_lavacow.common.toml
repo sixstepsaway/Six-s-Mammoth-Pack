@@ -440,7 +440,7 @@
 
 [Structure]
 	#Generate Cemetery in the Overworld. [false/true]
-	"generate cemetery" = true
+	"generate cemetery" = false
 	#Cemetery spawns Unburied occasionally. [0-100]
 	#Range: 0 ~ 100
 	"cemetery spawns unburied" = 40
@@ -450,7 +450,7 @@
 	#Range: 0 ~ 10000
 	"cemetery spawn rate" = 500
 	#Generate Desert Tomb in the Overworld. [false/true]
-	"generate desert tomb" = true
+	"generate desert tomb" = false
 	#Spawn rate of Desert Tomb [1-1000]
 	#Range: 0 ~ 1000
 	"desert tomb spawn rate" = 500

@@ -1,7 +1,7 @@
 
 [General]
 	#Should Fins and Tails fish should appear in the fishing loot table?
-	fins_fishing_loot = true
+	fins_fishing_loot = false
 
 ["Jungle Creature Spawn Weight"]
 	#Spawn weight of Pea Wees

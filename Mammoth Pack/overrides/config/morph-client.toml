@@ -14,13 +14,13 @@
 	radialScale = 0.75
 	#Plays the "acquisition" animation. 0 = Disable, 1 = Morph only, 2 = Biomass only, 3 = Biomass and Morph
 	#Range: 0 ~ 3
-	acquisitionPlayAnimation = 3
+	acquisitionPlayAnimation = 0
 	#The (approximate) maximum part count for a tendril. Also partially dictates the length (in ticks) of the animation. Higher = More parts, slower animation, Lower = Less parts, faster animation.
 	#Range: 3 ~ 100
-	acquisitionTendrilMaxChild = 10
+	acquisitionTendrilMaxChild = 3
 	#In first person, tendrils closer to you are partially opaque to reduce obscuring of your vision. Increase this number to keep tendrils partially transparent for longer distances.
 	#Range: 0 ~ 100
-	acquisitionTendrilPartOpacity = 5
+	acquisitionTendrilPartOpacity = 0
 	#Enable overriding the hand render with a (compatible) morph hand? Disable if you have crashing issues/conflicts with other mods.
 	morphAllowHandOverride = true
 	#This disables rendering players that is riding the camera entity when in First Person.

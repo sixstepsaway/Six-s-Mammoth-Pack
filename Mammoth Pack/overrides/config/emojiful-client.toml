@@ -7,7 +7,7 @@
 	#Enable Emoji autocomplete in the chat text line
 	emoji_autocomplete = true
 	#Replace short versions of emoji like :) into :smile: so they can be rendered as emoji
-	short_emoji_replacement = true
+	short_emoji_replacement = false
 	#Load animated emojis, if disabled they will be a still image
 	gifs = true
 

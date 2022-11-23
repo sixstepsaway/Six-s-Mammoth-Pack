@@ -5,7 +5,7 @@ log_missing_registry_data_for_datapacks = false
 #
 # The emerald cost for the Zeal Lighter sold by the Gatekeeper.
 # Default: 12
-gatekeeper_emerald_count = 8
+gatekeeper_emerald_count = 64
 #
 # A list of mods that are allowed to generate features in our dimensions.
 # Default: []

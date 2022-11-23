@@ -24,13 +24,13 @@
 	#Allow all blocks to be picked up, not just Tile Entites
 	pickupAllBlocks = false
 	#Whether Blocks and Entities slow the creative player down when carried
-	slownessInCreative = true
+	slownessInCreative = false
 	#Whether hostile mobs should be able to picked up in survival mode
 	pickupHostileMobs = false
 	#Larger Entities slow down the player more
 	heavyEntities = true
 	#Allow babies to be carried even when adult mob is blacklisted (or not whitelisted)
-	allowBabies = false
+	allowBabies = true
 	#Use Whitelist instead of Blacklist for Blocks
 	useWhitelistBlocks = false
 	#Use Whitelist instead of Blacklist for Entities
@@ -38,9 +38,9 @@
 	#Use Whitelist instead of Blacklist for Stacking
 	useWhitelistStacking = false
 	#Whether the player can hit blocks and entities while carrying or not
-	hitWhileCarrying = false
+	hitWhileCarrying = true
 	#Whether the player drops the carried object when hit or not
-	dropCarriedWhenHit = false
+	dropCarriedWhenHit = true
 	#Use custom Pickup Scripts. Having this set to false, will not allow you to run scripts, but will increase your performance
 	useScripts = false
 	#Whether entities' size matters when stacking or not

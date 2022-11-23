@@ -28,9 +28,9 @@
 	#Allows you to sleep with armor equipped
 	sleepWithArmor = false
 	#Let the player sleep even when there are monsters nearby
-	ignoreMonsters = false
+	ignoreMonsters = true
 	#Deafens you while you're asleep. Mob sounds are confusing with the world sped up
-	muteSoundWhenSleeping = false
+	muteSoundWhenSleeping = true
 	#Slightly slower sleep start/end
 	fading = true
 

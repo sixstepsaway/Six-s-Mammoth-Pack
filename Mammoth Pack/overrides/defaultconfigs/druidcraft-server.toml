@@ -36,7 +36,7 @@
 	#Range: 0 ~ 100
 	hemp_seed_rate = 8
 	#Whether to have seeds from this mod drop from grass at all.
-	drop_seeds = true
+	drop_seeds = false
 
 [toolcontrollers]
 	#Decides what blocks are allowed and not allowed to be affected by the sickle.

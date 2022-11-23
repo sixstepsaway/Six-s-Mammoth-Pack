@@ -34,5 +34,5 @@
 	#Range: > 1000
 	BloomeryTime = 4000
 	#If the bloomery should require a higher tier pickaxe to mine. Disabled by default as none exist in vanilla before iron
-	EnableBloomeryPickRequirement = false
+	EnableBloomeryPickRequirement = true
 

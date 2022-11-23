@@ -6,8 +6,8 @@
 	"Enable inactive bees in winter" = true
 
 [Sleeping]
-	"Sleep at any time" = false
-	"Disable sleeping between waking up and sunset" = true
+	"Sleep at any time" = true
+	"Disable sleeping between waking up and sunset" = false
 	"Wake up at sunrise" = false
 	#5999 = Ignore this. 10000 = 10AM. 13000 = 1PM etc.
 	#Range: 5999 ~ 23999

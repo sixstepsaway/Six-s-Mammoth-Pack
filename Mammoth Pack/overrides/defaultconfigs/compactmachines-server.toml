@@ -6,7 +6,7 @@
 	# 'owner' = Only the owner can break while players are inside.
 	# 'anyone' = Anyone can break while players are inside.
 	#Allowed Values: UNBREAKABLE, OWNER, ANYONE
-	breakHandling = "UNBREAKABLE"
+	breakHandling = "ANYONE"
 	#Allow machines to chunkload their insides when the machines are loaded.
 	chunkloading = true
 	#The Y-level to spawn machine floors at.

@@ -37,7 +37,7 @@
 	#Range: > 1
 	delayBetweenFire = 40
 	#Toggle whither torches are lit when placed or unlit. true=lit false=unlit
-	placeLitTorches = true
+	placeLitTorches = false
 	#How much light does a half used torches give?
 	#Range: 0 ~ 16
 	lightatlevel3 = 15
@@ -57,7 +57,7 @@
 	#Range: 1 ~ 5
 	pumpkinStartingDecayLevel = 5
 	#Toggle if pumpkins are lit when placed or unlit. true=lit false=unlit
-	placeLitPumpkins = true
+	placeLitPumpkins = false
 	#How much light does new torches give?
 	#Range: 0 ~ 16
 	lightatlevel5 = 15

@@ -79,7 +79,7 @@
 	#Disable the Politically Correct pet (default:false)
 	"disablePolitically Correct" = false
 	#Turn off Sky dungeons (default:false)
-	disableSkyDungeons = false
+	disableSkyDungeons = true
 	#Disable Creeper Pet explosion ability (default:false)
 	disableCreeperExplosion = false
 	#Disable the April Fool pet and messages (default:false)
@@ -94,7 +94,7 @@
 	#Range: 1 ~ 10
 	illuminatiCooldown = 1
 	#Turn off Tree Tops (default:false)
-	disableTreeTops = false
+	disableTreeTops = true
 	#Disable the Shield pet (default:false)
 	disableShield = false
 	#Disable the Juggernaut pet (default:false)
@@ -143,7 +143,7 @@
 	#Disable the Menorah pet (default:false)
 	disableMenorah = false
 	#Turn off Sea Cave dungeons (default:false)
-	disableSeaCaveDungeons = false
+	disableSeaCaveDungeons = true
 	#Disable the Banana pet (default:false)
 	disableBanana = false
 	#Disable the Purplicious Cow pet (default:false)
@@ -154,7 +154,7 @@
 	#Disable the Ender Chest pet (default:false)
 	disableEnderChest = false
 	#Turn off all dungeons (default:false)
-	disableAllDungeons = false
+	disableAllDungeons = true
 	#Reduce the number of Quantum Crystal Monster Pet minions (default:false)
 	reduceQuantumCrystalMonsterMinions = false
 	#Pets eat rarer items (default:false)
@@ -168,7 +168,7 @@
 	#Disable the Moon pet (default:false)
 	disableMoon = false
 	#Turn off Nether dungeons (default:false)
-	disableNetherDungeons = false
+	disableNetherDungeons = true
 	#All players must be in bed for Bed Pet sleep ability (default:false)
 	allPlayersMustBeInBed = false
 	#Frequency of Nether Dungeons (default: 5)
@@ -211,7 +211,7 @@
 	#Turn off Space dungeons (default:false)
 	disableSpaceDungeons = false
 	#Turn off Underground dungeons (default:false)
-	disableUndergroundDungeons = false
+	disableUndergroundDungeons = true
 	#Disable Squid Pet swim speed boost ability (default:false)
 	disableSquidSpeed = false
 	#Disable the Illuminati pet (default:false)

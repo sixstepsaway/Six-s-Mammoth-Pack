@@ -3,7 +3,7 @@
 [worldGen]
 	# 
 	#Whether or not CreateAutomated worldgen is enabled
-	enabled = true
+	enabled = false
 
 	[worldGen.copper_node]
 		# 

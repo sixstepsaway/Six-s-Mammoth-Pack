@@ -6,5 +6,43 @@
 	title: "The Start"
 	default_quest_shape: ""
 	default_hide_dependency_lines: false
-	quests: [ ]
+	quests: [
+		{
+			title: "Are you there?"
+			x: -4.0d
+			y: -10.0d
+			shape: "square"
+			description: ["[bzzt] Are [bzzt] there? [bzzt] reach you and [bzzzzzzzt] dead! [the signal stops crackling so much] If you're there, please confirm!"]
+			size: 3.0d
+			id: "1393A091003F6331"
+			tasks: [{
+				id: "23B115C0CDE1DD6A"
+				type: "checkmark"
+				title: "Are you there?"
+			}]
+		}
+		{
+			x: -4.0d
+			y: -6.5d
+			shape: "square"
+			description: ["Oh! You're alive, that's good. Well, it's good for Simon, he didn't just lose a bunch of credits in the pool-- but nevermind, it's great to hear your voice! For a while there, we thought you'd fallen victim to the void like the last poor idiot, ha! Sorry, what was that? Oh. No, no, that's just a joke, don't worry about it. Now, let's see [there's the sound of papers rustling] you should have your starter equipment and pod with you, and it says here your name is-- I'm sorry, what? You, ah. You don't have any equipment? Well, that's... Mm. Problematic. Where did your leave your travel pod? What do you mean what travel pod?"]
+			dependencies: ["1393A091003F6331"]
+			size: 2.0d
+			id: "5A25F23CF94774F9"
+			tasks: [{
+				id: "11CE1864287D19A0"
+				type: "checkmark"
+				title: "You're alive!"
+			}]
+		}
+		{
+			x: -4.0d
+			y: -5.0d
+			id: "478E19B7DB97915D"
+			tasks: [{
+				id: "47DD78277E653A6E"
+				type: "item"
+			}]
+		}
+	]
 }

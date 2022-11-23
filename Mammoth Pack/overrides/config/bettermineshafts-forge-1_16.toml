@@ -88,7 +88,7 @@
 		# Default: 1
 		#Range: 0 ~ 100
 		"Diamond Spawn Chance" = 1
-		"Enable Ore Deposits" = true
+		"Enable Ore Deposits" = false
 		# Chance of an ore deposit containing lapis lazuli.
 		# Default: 3
 		#Range: 0 ~ 100

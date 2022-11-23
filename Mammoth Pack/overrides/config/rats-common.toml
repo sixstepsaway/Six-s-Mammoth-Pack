@@ -60,7 +60,7 @@
 	#True if infected mobs with plague can spread it by interacting or attacking.
 	"Other Mobs can spread Plague" = true
 	#True if cheese can be created in cauldrons
-	Cheesemaking = true
+	Cheesemaking = false
 	#The time in ticks(20 per second) it takes for milk to turn into cheese in a cauldron
 	#Range: 20 ~ 1000000
 	"Milk Curdling Time" = 150
@@ -80,7 +80,7 @@
 	#Range: > 1
 	"Rat Token Drop Rate" = 10000
 	#True if Plastic item is disabled - alternative methods of getting rat cage deco will be provided. WARNING: Leave the restard the game after changing this. You must be fun at parties.
-	"Disable Plastic" = false
+	"Disable Plastic" = true
 	#How many blocks the Lumberjack Rat is able to destroy when felling a tree. Be careful when changing this to a large number.
 	#Range: > 0
 	"Rat Upgrade Lumberjack: Max Tree Blocks" = 10000
@@ -115,7 +115,7 @@
 	#Range: 0.0 ~ 3.4028234663852886E38
 	"Voodoo Doll Rat distance" = 32.0
 	#True if loot from rats can spawn in chests
-	"Add Loot" = true
+	"Add Loot" = false
 	#Default radius for tamed rats conducting their searches for items, harvests, etc.
 	#Range: > 1
 	"Default Rat Radius" = 16

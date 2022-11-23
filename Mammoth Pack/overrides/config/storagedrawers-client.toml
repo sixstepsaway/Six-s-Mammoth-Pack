@@ -15,5 +15,5 @@
 	#Enable extended data display in WAILA if present
 	enableWaila = true
 	#Enable extended data display in The One Probe if present
-	enableTheOneProbe = true
+	enableTheOneProbe = false
 

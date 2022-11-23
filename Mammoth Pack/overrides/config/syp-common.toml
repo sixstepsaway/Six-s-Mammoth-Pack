@@ -9,5 +9,5 @@ AutoHeal = false
 #Show Location
 ShowLoc = true
 #Use world ticks otherwise chunk ticks
-UseWorldTicks = false
+UseWorldTicks = true
 

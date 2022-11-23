@@ -22,3 +22,12 @@
 	[Compatibility.tconstruct]
 		enable_compat_tconstruct = true
 
+	[Compatibility.survive]
+		enable_compat_survive = true
+		#Whether vampires should not need to drink
+		disableThirstVampires = true
+		#Grant vampires cold resistance, but decrease heat resistance
+		enableTemperatureVampires = true
+		#Increase natural regeneration for vampires
+		enableStaminaBoostVampires = true
+

@@ -72,7 +72,7 @@
 	huge_dungeon_mindis = 0
 	#Chance of a normal Tecdungeon to spawn in a chunk
 	#Range: 0.0 ~ 0.2
-	tec_dungeon_spawnrate = 0.006670000031590462
+	tec_dungeon_spawnrate = 0.0
 	#Heigth for Bedrockrift: Should be equal to flat bedrock heigth (if used)
 	#Range: 0 ~ 255
 	bedrock_rift_height = 1
@@ -85,13 +85,13 @@
 	#Range: > 0
 	tec_dungeon_mindis = 0
 	#A whitelist for enabling huge dungeon spawn in other dimensions.
-	wl_huge_dungeons = ["minecraft:overworld"]
+	wl_huge_dungeons = []
 	#The amount erse generation  loops per chunk. If greater then one it will run mutliple times, smaler then one will result in percentage per chunk. Keep in mind erse will only spawn if there is the tall grass ( not the grass block, not the 2-block tall grass)
 	#Range: 0.0 ~ 100.0
-	erse_count = 2.0
+	erse_count = 0.0
 	#Chance of a huge Tecdungeon to spawn in a chunk
 	#Range: 0.0 ~ 0.1
-	huge_dungeon_spawnrate = 0.0012
+	huge_dungeon_spawnrate = 0.0
 
 	[world_generation.ores]
 		#Quantity of Copper Ore

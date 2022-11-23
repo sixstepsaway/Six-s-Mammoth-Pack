@@ -8,7 +8,7 @@
 	#Note that if this option is disabled while staminaVessels is enabled, "challenges" will drop stamina vessels instead.
 	heartContainers = true
 	#For those who wants to remove all structures added by this mod. Requires restart.
-	structures = true
+	structures = false
 	#For those who wants to remove entirety of Spirit Orbs generated from chests, more specifically...
 	#  * Spirit Orbs generated in various chests
 	#  * Spirit Orbs dropped by spawners and such

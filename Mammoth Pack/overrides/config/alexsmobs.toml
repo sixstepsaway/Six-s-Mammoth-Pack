@@ -5,7 +5,7 @@
 	#Whether bone serpents are neutral or hostile.
 	neutralBoneSerpents = false
 	#Makes eagles teleport back to their owner if they get stuck during controlled flight. Useful for when playing with the Optifine mod, since this mod is the fault of many issues with the falconry system.
-	falconryTeleportsBack = false
+	falconryTeleportsBack = true
 	#List of dimensions in which spawning void worms via mysterious worm items is allowed.
 	voidWormSpawnDimensions = ["minecraft:the_end"]
 	#True if straddleboard enchants are enabled.
@@ -74,7 +74,7 @@
 	#Whether mimicubes spawns should be restricted solely to the end city structure or to whatever biome is specified in their respective biome config.
 	mimicubeSpawnInEndCity = true
 	#Whether bananas should drop from blocks tagged with #alexsmobs:drops_bananas
-	bananasDropFromLeaves = true
+	bananasDropFromLeaves = false
 	#Relative volume of cachalot whales compared to other animals. Note that irl they are the loudest animal. Turn this down if you find their clicks annoying.
 	#Range: 0.0 ~ 10.0
 	cachalotVolume = 3.0

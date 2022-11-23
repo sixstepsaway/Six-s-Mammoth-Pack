@@ -1,1 +1,7 @@
-[]
+[{
+    "name": "first_day",
+    "conditions": {
+        "maxdaycount": 1,
+        "maxtime": 13000
+    }
+}]

@@ -28,7 +28,7 @@
 		#Range: 1 ~ 256
 		max_height = 50
 		#Generate Should Stella Arcanum? [default: true]
-		generate = true
+		generate = false
 
 	[world_gen.yellow_orchid]
 		#Generate Yellow Orchids? [default: true]
@@ -45,7 +45,7 @@
 		#Range: 1 ~ 256
 		max_height = 8
 		#Generate Arcane Gilded Darkstone? [default: true]
-		generate = true
+		generate = false
 
 	[world_gen.edelwood_tree]
 		#Generate Edelwood Trees? [default: true]
@@ -66,7 +66,7 @@
 		#Range: 1 ~ 256
 		max_height = 8
 		#Generate Dark Runestone? [default: true]
-		generate = true
+		generate = false
 
 	[world_gen.arcane_crystal]
 		#Maximum size of Arcane Crystal Ore veins [default: 6]
@@ -79,11 +79,11 @@
 		#Range: 1 ~ 256
 		max_height = 25
 		#Generate Arcane Crystal Ore? [default: true]
-		generate = true
+		generate = false
 
 	[world_gen.xpetrified_ore]
 		#Generate Xpetrified Ore? [default: true]
-		generate = true
+		generate = false
 
 	[world_gen.darkstone]
 		#Maximum size of Darkstone veins [default: 20]
@@ -96,7 +96,7 @@
 		#Range: 1 ~ 256
 		max_height = 8
 		#Generate Darkstone? [default: true]
-		generate = true
+		generate = false
 
 	[world_gen.cherrywood_tree]
 		#Generate Cherrywood Trees? [default: true]
@@ -113,7 +113,7 @@
 		#Range: 1 ~ 256
 		max_height = 20
 		#Generate Runestone? [default: true]
-		generate = true
+		generate = false
 
 	[world_gen.nipa]
 		#Nipa Structure Spacing [default: 35]
@@ -123,7 +123,7 @@
 		#Range: > 0
 		separation = 8
 		#Generate Nipas? [default: true]
-		generate = true
+		generate = false
 
 [items]
 

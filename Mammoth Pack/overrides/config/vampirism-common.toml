@@ -5,16 +5,16 @@
 	useVanillaCampfire = false
 	#Desired maximum distance between villages in chunks
 	#Range: 1 ~ 100
-	villageDistance = 26
+	villageDistance = 100
 	#Minimum distance between villages in chunks. Must be smaller than distance
 	#Range: 1 ~ 100
-	villageSeparation = 6
+	villageSeparation = 80
 	#Whether to modify the village world gen (size and frequency), based on world config
 	villageModify = false
 	#Check for new versions of Vampirism on startup
 	versionCheck = true
 	#Send mod version, MC version and mod count to mod author
-	collectStats = true
+	collectStats = false
 	#INTERNAL - Set to 'never' if you don't want to be notified about integration mods
 	integrationsNotifier = ""
 	#INTERNAL
@@ -32,10 +32,10 @@
 	[common-server.world]
 		#Desired maximum distance in chunks between tents. Dont set hunterTentDistance <= hunterTentSeparation
 		#Range: 2 ~ 4096
-		hunterTentDistance = 10
+		hunterTentDistance = 100
 		#Desired minimum distance in chunks between tents. Dont set hunterTentDistance <= hunterTentSeparation
 		#Range: 1 ~ 4096
-		hunterTentSeparation = 4
+		hunterTentSeparation = 40
 		#Control hunter camp generation. If disabled you should set hunterSpawnChance to 75.
 		enableHunterTentGeneration = true
 		#Range: > 0

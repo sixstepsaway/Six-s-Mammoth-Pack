@@ -514,7 +514,7 @@
 	Crevices = true
 	"Nether Obsidian Spikes" = true
 	"Mega Caves" = true
-	"Realistic World Gen" = true
+	"Realistic World Gen" = false
 	Biotite = true
 	"Big Stone Clusters" = true
 	"Brimstone Underground Biome" = true

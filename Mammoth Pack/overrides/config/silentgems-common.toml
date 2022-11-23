@@ -9,7 +9,7 @@
 	#Range: > 0
 	maxValue = 10000000
 	#If true, players will not experience chaos events until they have used a bed (set a respawn point)
-	noEventsUntilPlayerHasBed = true
+	noEventsUntilPlayerHasBed = false
 
 [debug]
 	#Must be true for any other debug settings to take effect
@@ -71,7 +71,7 @@
 	#Allow return home charms to be bound to teleporter anchors
 	allowAnchors = true
 	#Only allow return home charms to be bound to teleporters made with the same gem
-	sameGemOnly = false
+	sameGemOnly = true
 	#Durability of return home charms. 0 means unlimited. Charms with durability will still generate chaos when used.
 	#Range: > 0
 	maxUses = 0
@@ -103,7 +103,7 @@
 	#Allow teleporters to link to teleporter anchors
 	allowAnchors = true
 	#Only allow teleporters to be linked to teleporters made with the same gem
-	sameGemOnly = false
+	sameGemOnly = true
 
 	[teleporter.chaos]
 		#The chaos produced when traveling between dimensions using a teleport

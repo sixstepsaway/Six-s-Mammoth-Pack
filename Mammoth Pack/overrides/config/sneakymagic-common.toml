@@ -50,7 +50,7 @@
 	#Disables damage immunity when hit by a projectile. Makes it possible for entities to be hit by multiple projectiles at once.
 	"No Projectile Immunity" = true
 	#Is the sweeping edge enchantment required to perform a sweep attack.
-	"Require Sweeping Edge" = false
+	"Require Sweeping Edge" = true
 	#Makes the impaling enchantment apply to any creature in contact with rain or water.
 	"Boost Impaling" = true
 	#Tridents can be repaired in an anvil using prismarine shards.

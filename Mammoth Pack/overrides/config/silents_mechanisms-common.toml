@@ -22,7 +22,7 @@
 		#Water is 4, lava is 80. Oil lakes will spawn underground about 90% of the time.
 		#Note that disabling oil will make some items uncraftable unless recipes are changed
 		#Range: > 0
-		chance = 6
+		chance = 0
 		#The dimensions that oil lakes are not allow to generate in
 		dimensionBlacklist = ["minecraft:the_nether", "minecraft:the_end"]
 
@@ -32,10 +32,10 @@
 		[world.ores.copper]
 			#Number of veins per chunk
 			#Range: > 0
-			veinCount = 8
+			veinCount = 0
 			#Size of veins
 			#Range: 0 ~ 100
-			veinSize = 8
+			veinSize = 0
 			#Minimum Y-coordinate (base height) of veins
 			#Range: 0 ~ 255
 			minHeight = 40
@@ -46,10 +46,10 @@
 		[world.ores.tin]
 			#Number of veins per chunk
 			#Range: > 0
-			veinCount = 8
+			veinCount = 0
 			#Size of veins
 			#Range: 0 ~ 100
-			veinSize = 8
+			veinSize = 0
 			#Minimum Y-coordinate (base height) of veins
 			#Range: 0 ~ 255
 			minHeight = 20
@@ -60,10 +60,10 @@
 		[world.ores.silver]
 			#Number of veins per chunk
 			#Range: > 0
-			veinCount = 4
+			veinCount = 0
 			#Size of veins
 			#Range: 0 ~ 100
-			veinSize = 8
+			veinSize = 0
 			#Minimum Y-coordinate (base height) of veins
 			#Range: 0 ~ 255
 			minHeight = 0
@@ -74,10 +74,10 @@
 		[world.ores.lead]
 			#Number of veins per chunk
 			#Range: > 0
-			veinCount = 4
+			veinCount = 0
 			#Size of veins
 			#Range: 0 ~ 100
-			veinSize = 8
+			veinSize = 0
 			#Minimum Y-coordinate (base height) of veins
 			#Range: 0 ~ 255
 			minHeight = 0
@@ -88,10 +88,10 @@
 		[world.ores.nickel]
 			#Number of veins per chunk
 			#Range: > 0
-			veinCount = 1
+			veinCount = 0
 			#Size of veins
 			#Range: 0 ~ 100
-			veinSize = 6
+			veinSize = 0
 			#Minimum Y-coordinate (base height) of veins
 			#Range: 0 ~ 255
 			minHeight = 0
@@ -102,10 +102,10 @@
 		[world.ores.platinum]
 			#Number of veins per chunk
 			#Range: > 0
-			veinCount = 1
+			veinCount = 0
 			#Size of veins
 			#Range: 0 ~ 100
-			veinSize = 8
+			veinSize = 0
 			#Minimum Y-coordinate (base height) of veins
 			#Range: 0 ~ 255
 			minHeight = 5
@@ -116,10 +116,10 @@
 		[world.ores.zinc]
 			#Number of veins per chunk
 			#Range: > 0
-			veinCount = 4
+			veinCount = 0
 			#Size of veins
 			#Range: 0 ~ 100
-			veinSize = 8
+			veinSize = 0
 			#Minimum Y-coordinate (base height) of veins
 			#Range: 0 ~ 255
 			minHeight = 20
@@ -130,10 +130,10 @@
 		[world.ores.bismuth]
 			#Number of veins per chunk
 			#Range: > 0
-			veinCount = 4
+			veinCount = 0
 			#Size of veins
 			#Range: 0 ~ 100
-			veinSize = 8
+			veinSize = 0
 			#Minimum Y-coordinate (base height) of veins
 			#Range: 0 ~ 255
 			minHeight = 16
@@ -144,10 +144,10 @@
 		[world.ores.bauxite]
 			#Number of veins per chunk
 			#Range: > 0
-			veinCount = 6
+			veinCount = 0
 			#Size of veins
 			#Range: 0 ~ 100
-			veinSize = 8
+			veinSize = 0
 			#Minimum Y-coordinate (base height) of veins
 			#Range: 0 ~ 255
 			minHeight = 15
@@ -158,10 +158,10 @@
 		[world.ores.uranium]
 			#Number of veins per chunk
 			#Range: > 0
-			veinCount = 1
+			veinCount = 0
 			#Size of veins
 			#Range: 0 ~ 100
-			veinSize = 4
+			veinSize = 0
 			#Minimum Y-coordinate (base height) of veins
 			#Range: 0 ~ 255
 			minHeight = 0

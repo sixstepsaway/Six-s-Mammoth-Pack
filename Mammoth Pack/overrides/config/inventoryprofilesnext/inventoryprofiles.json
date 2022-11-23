@@ -1,5 +1,23 @@
 {
     "ModSettings": {
+        "highlight_foused_items": {
+            "value": false
+        },
+        "enable_updates_check": false,
+        "for_modpack_devs": true,
         "first_run": false
+    },
+    "AutoRefillSettings": {
+        "visual_replace_failed_notification": {
+            "value": false
+        },
+        "audio_replace_failed_notification": {
+            "value": false
+        }
+    },
+    "Tweaks": {
+        "prevent_close_gui_drop_item": {
+            "value": true
+        }
     }
 }

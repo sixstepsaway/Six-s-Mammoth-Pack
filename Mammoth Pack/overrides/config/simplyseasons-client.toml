@@ -1,9 +1,9 @@
 
 [Information]
-	"Enable season HUD" = false
-	"Show wet/dry tooltip" = false
+	"Enable season HUD" = true
+	"Show wet/dry tooltip" = true
 	#This config option requires Enable season HUD to be true. If it is false it will not work.
-	"Require calendar items in inventory to display the HUD" = false
+	"Require calendar items in inventory to display the HUD" = true
 	"Enable seasonal music" = false
 	"Display season in debug menu" = true
 	"Enable crops season tooltip" = true

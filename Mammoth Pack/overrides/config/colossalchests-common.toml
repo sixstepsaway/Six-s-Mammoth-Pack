@@ -3,9 +3,9 @@
 
 	[core.general]
 		#If an anonymous mod startup analytics request may be sent to our analytics service.
-		analytics = true
+		analytics = false
 		#If the version checker should be enabled.
-		versionChecker = true
+		versionChecker = false
 		#Maximum buffer byte size for adaptive inventory slots fragmentation.
 		maxPacketBufferSize = 20000
 		#If the recipe loader should crash when finding invalid recipes.
@@ -23,7 +23,7 @@
 		#If the interface input overlay should always be rendered on chests.
 		alwaysShowInterfaceOverlay = true
 		#If items should be ejected from the chests if one of the structure blocks are removed.
-		ejectItemsOnDestroy = false
+		ejectItemsOnDestroy = true
 
 	[general.colossal_chest]
 		#If the chest should visually open when someone uses it.
